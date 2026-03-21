@@ -1,7 +1,7 @@
 # Meshtastic Technology --> How it works? What we use? How do we start?
 # 📡 Introducción a Meshtastic
 
-[![Meshtastic](https://img.shields.io/badge/Meshtastic-0000?style=for-the-badge&logo=maildotru)](https://meshtastic.org/)
+[![Meshtastic](https://img.shields.io/badge/Meshtastic-C22500?style=for-the-badge&logo=maildotru)](https://meshtastic.org/)
 
 
 Bienvenido a esta guía sobre **Meshtastic**. Este repositorio tiene como objetivo explicar los fundamentos de esta tecnología de comunicación descentralizada y documentar la configuración de nodos específicos.
