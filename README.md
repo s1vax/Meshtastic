@@ -74,3 +74,16 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 </p>
 
 *(Próximamente: Descripción detallada, gestión de energía y configuración de esta placa).*
+- 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
+   - Starware --> 
+   - Mercado Libre -->
+   
+- 📻 Una vez adquirida la placa, vamos a realizar los pasos iniciales:
+   - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
+   - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
+   - Encedemos el bluetooth de nuestro celular (ver para PC)
+   - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algun puerto que nos brinde 3.3 V)
+   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de "..." nuestro dispositivo para conectar.
+   
+- ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
+   - d
