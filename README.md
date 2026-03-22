@@ -47,6 +47,9 @@ Empezar con Meshtastic es accesible y requiere pocos componentes:
 En las siguientes secciones, profundizaremos en la configuración y optimización de dos modelos específicos, detallando sus características, ventajas y esquemas de conexión.
 
 ### 🔹 Heltec T114 v2 (con pantalla)
+
+<img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
+</p>
 *(Próximamente: Descripción detallada, pinout y configuración de esta placa).*
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Starware --> 
