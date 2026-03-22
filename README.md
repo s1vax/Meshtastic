@@ -49,8 +49,14 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 ### 🔹 Heltec T114 v2 (con pantalla)
 *(Próximamente: Descripción detallada, pinout y configuración de esta placa).*
 - En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
-   - Starware
-   - Mercado Libre
+   - Starware --> 
+   - Mercado Libre -->
+- Una vez adquirida la placa vamos a pasar a configurarla:
+   - ⚠️ ***MUY IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
+   - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
+   - Encedemos el bluetooth de nuestro celular (ver para PC)
+   - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algo puerto que nos brinde 3.3 V)
+   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de "..." nuestro dispositivo
 
 ### 🔹 Seeed Studio XIAO nRF52840 Kit
 *(Próximamente: Descripción detallada, gestión de energía y configuración de esta placa).*
