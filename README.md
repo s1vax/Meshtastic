@@ -1,7 +1,13 @@
 # 🌐 Meshtastic Technology --> How it works? What we use? How do we start?
 # 📡 Introducción a Meshtastic
 
-[![Meshtastic](https://img.shields.io/badge/Meshtastic-C22500?style=for-the-badge)](https://meshtastic.org/)
+<p align="center">
+   
+![meshtastic-banner](https://github.com/user-attachments/assets/b67f0d6d-6899-40ca-84ea-4ff4b66120cf)
+</p>
+
+ [![Meshtastic](https://img.shields.io/badge/Meshtastic-00750B?style=for-the-badge)](https://meshtastic.org/)
+
 
 
 Bienvenido a esta guía sobre **Meshtastic**. Este repositorio tiene como objetivo explicar los fundamentos de esta tecnología de comunicación descentralizada y documentar la configuración de nodos específicos.
@@ -31,16 +37,14 @@ El sistema se basa en dos pilares fundamentales:
 1.  **Tecnología LoRa:** Utiliza modulación de radiofrecuencia de largo alcance y bajo consumo de energía. Esto permite enviar pequeños paquetes de datos (como texto o coordenadas GPS) a varios kilómetros de distancia utilizando baterías pequeñas.
 2.  **Topología de Malla (Mesh):** Aquí está la magia. Cada dispositivo (nodo) en la red no solo envía y recibe sus propios mensajes, sino que actúa como un **repetidor** para los demás. Si el Nodo A quiere hablar con el Nodo C, pero están muy lejos, el mensaje puede saltar a través del Nodo B que está en el medio. Cuantos más nodos haya, más robusta y amplia se vuelve la red.
 
-## 🚀 ¿Cómo podemos empezar?
-
-
+## 🚀 ¿Cómo podemos empezar? --> Pasos Generales
 
 Empezar con Meshtastic es accesible y requiere pocos componentes:
 
-1.  **Conseguir el Hardware:** Necesitas una placa de desarrollo que integre un microcontrolador (como un ESP32 o nRF52) y un chip de radio LoRa. 
-2.  **Flashear el Firmware:** ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa debemos conectarle alguna antena, ya sea la que trae por defecto u otra. Una vez asegurado esto procedemos a conectar la placa a la computadora e instalar el firmware oficial de Meshtastic a través de su [flasheador web](https://flasher.meshtastic.org/).
-3.  **Descargar la App:** Instalar la aplicación de Meshtastic en tu smartphone (iOS o Android).
-4.  **Emparejar y Configurar:** Conectar tu teléfono a la placa vía Bluetooth. Desde la app, puedes configurar tu región (frecuencia legal), establecer un nombre de usuario y empezar a enviar mensajes a la malla.
+1.  ***Conseguir el Hardware:*** Necesitas una placa de desarrollo que integre un microcontrolador (como un ESP32 o nRF52) y un chip de radio LoRa. 
+2.  ***Flashear el Firmware:*** ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa debemos conectarle alguna antena, ya sea la que trae por defecto u otra. Una vez asegurado esto, procedemos a conectar la placa a la computadora e instalar el firmware oficial de Meshtastic a través de su [flasheador web](https://flasher.meshtastic.org/).
+3.  ***Descargar la App:*** Instalar la aplicación de Meshtastic en tu smartphone (iOS o Android).
+4.  ***Emparejar y Configurar:*** Conectar tu teléfono a la placa vía Bluetooth. Desde la app, puedes configurar tu región (frecuencia legal), establecer un nombre de usuario y empezar a enviar mensajes a la malla.
 
 ---
 
@@ -80,12 +84,22 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - Starware --> 
    - Mercado Libre -->
    
-- 📻 Una vez adquirida la placa, vamos a realizar los pasos iniciales:
-   - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
+- 📻 Una vez adquirida la placa, vamos a realizar los pasos de inicializacion:
+   - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectarle alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
+   - Como paso siguiente, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Este paso consiste en lo siguiente:
+     
+        --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
+          <p align="center">
+          <img width="1902" height="836" alt="image" src="https://github.com/user-attachments/assets/f29672f0-f267-45ff-8dba-a8be2c8c7d83" />
+          </p>
+        --> Seleccionamos o buscamos nuestra placa, en este caso la `Seed Xiao nrf52840 Kit`:
+           <p align="center">
+           <img width="1901" height="896" alt="image" src="https://github.com/user-attachments/assets/23da2f63-b9a1-472c-8a28-32e6508b90d4" />
+           </p>
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
    - Encedemos el bluetooth de nuestro celular (ver para PC)
    - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algun puerto que nos brinde 3.3 V)
    - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
    
-- ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
-   - En primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa` 
+- ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
+   - Una vez conectados con el dispotivo adquirido, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa` 
