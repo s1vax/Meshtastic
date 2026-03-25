@@ -39,7 +39,7 @@ El sistema se basa en dos pilares fundamentales:
 
 ## 🚀 ¿Cómo podemos empezar? --> Pasos Generales
 
-Empezar con Meshtastic es accesible y requiere pocos componentes:
+Empezar con Meshtastic es accesible y requiere pocos componentes. De forma breve consiste en lo siguiente:
 
 1.  ***Conseguir el Hardware:*** Necesitas una placa de desarrollo que integre un microcontrolador (como un ESP32 o nRF52) y un chip de radio LoRa. 
 2.  ***Flashear el Firmware:*** ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa debemos conectarle alguna antena, ya sea la que trae por defecto u otra. Una vez asegurado esto, procedemos a conectar la placa a la computadora e instalar el firmware oficial de Meshtastic a través de su [flasheador web](https://flasher.meshtastic.org/).
@@ -50,7 +50,7 @@ Empezar con Meshtastic es accesible y requiere pocos componentes:
 
 ## 🛠️ Hardware y Configuraciones Específicas
 
-En las siguientes secciones, profundizaremos en la configuración y optimización de dos modelos específicos, detallando sus características, ventajas y esquemas de conexión.
+En las siguientes secciones, profundizaremos en la configuración y optimización de dos modelos específicos, detallando sus características, ventajas, esquemas de conexión, flasheos y configuraciones.
 
 ### 🔹 Heltec T114 v2 (con pantalla)
 
@@ -58,14 +58,17 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 <img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
 </p>
 
-*(Próximamente: Descripción detallada, pinout y configuración de esta placa).*
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Starware (modelo sin placa GPS) --> https://tienda.starware.com.ar/producto/placa-desarrollo-lora-bt-gps-heltec-mesh-node-t114-nrf52840sx1262-v20-pantalla/
    - Starware (modelo con placa GPS) --> https://tienda.starware.com.ar/producto/kit-desarrollo-lora-bt-gps-heltec-antena-mesh-node-t114-nrf52840sx1262-v2/
    - Mercado Libre (internacional) (modelo ya armado, con carcasa 3D, sin placa GPS) --> https://www.mercadolibre.com.ar/meshtastic-tracker-t114-v2-nordic-nrf52840-sx1262-lorawa/p/MLA2068680206#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=304d39fc-bcfe-4be4-abb9-f76de48062d1&wid=MLA3055433870&sid=search
    
-- 📻 Una vez adquirida la placa, vamos a realizar los pasos iniciales:
+- 📻 Una vez adquirida la placa, vamos a realizar los pasos de inicializacion:
    - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
+   - Como paso siguiente, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Este paso consiste en lo siguiente:
+          
+        --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
+     
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
    - Encedemos el bluetooth de nuestro celular (ver para PC)
    - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algun puerto que nos brinde 3.3 V)
@@ -80,7 +83,6 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 <img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/3354f50d-0bc4-4644-bf62-ac7d54137ba6" />
 </p>
 
-*(Próximamente: Descripción detallada, gestión de energía y configuración de esta placa).*
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
    - Mercado Libre --> https://www.mercadolibre.com.ar/xiao-nrf52840--wiosx1262-kit-meshtastic-blelora-862930-m/up/MLAU3394520637#polycard_client=search-desktop&search_layout=grid&position=1&type=product&float_highlight=repurchase&tracking_id=3a7aa470-9531-405d-8084-412034cb75f7&wid=MLA1519008445&sid=search
    
