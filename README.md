@@ -60,8 +60,9 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 
 *(Próximamente: Descripción detallada, pinout y configuración de esta placa).*
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
-   - Starware --> 
-   - Mercado Libre -->
+   - Starware (modelo sin placa GPS) --> https://tienda.starware.com.ar/producto/placa-desarrollo-lora-bt-gps-heltec-mesh-node-t114-nrf52840sx1262-v20-pantalla/
+   - Starware (modelo con placa GPS) --> https://tienda.starware.com.ar/producto/kit-desarrollo-lora-bt-gps-heltec-antena-mesh-node-t114-nrf52840sx1262-v2/
+   - Mercado Libre (internacional) (modelo ya armado, con carcasa 3D, sin placa GPS) --> https://www.mercadolibre.com.ar/meshtastic-tracker-t114-v2-nordic-nrf52840-sx1262-lorawa/p/MLA2068680206#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=304d39fc-bcfe-4be4-abb9-f76de48062d1&wid=MLA3055433870&sid=search
    
 - 📻 Una vez adquirida la placa, vamos a realizar los pasos iniciales:
    - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
@@ -81,8 +82,7 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
 
 *(Próximamente: Descripción detallada, gestión de energía y configuración de esta placa).*
 - 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
-   - Starware --> 
-   - Mercado Libre -->
+   - Mercado Libre --> https://www.mercadolibre.com.ar/xiao-nrf52840--wiosx1262-kit-meshtastic-blelora-862930-m/up/MLAU3394520637#polycard_client=search-desktop&search_layout=grid&position=1&type=product&float_highlight=repurchase&tracking_id=3a7aa470-9531-405d-8084-412034cb75f7&wid=MLA1519008445&sid=search
    
 - 📻 Una vez adquirida la placa, vamos a realizar los pasos de inicializacion:
    - ⚠️ ***IMPORTANTE*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectarle alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa.
@@ -103,8 +103,8 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
         
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
    - Encedemos el bluetooth de nuestro celular (ver para PC)
-   - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC, bateria portatil, o algun puerto que nos brinde 3.3 V)
-   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
+   - Alimentamos la placa para Meshtastic mediante el cable USB-C (podemos alimentarla por medio de puertos USB 2.0 de nuestra PC (los puertos 3.0 no son recomendados debido a la generacion de interferencias), bateria portatil, o algun puerto que nos brinde 3.3 V)
+   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. Generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*
    
 - ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
-   - Una vez conectados con el dispotivo adquirido, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa` 
+   - Una vez conectados con el dispotivo adquirido, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
