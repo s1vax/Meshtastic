@@ -76,7 +76,8 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
-   - En primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`
+   - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
+  
 <br>
    
 
@@ -113,4 +114,4 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
    - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. Generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*
    
 - ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
-   - Una vez conectados con el dispotivo adquirido, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
+   - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
