@@ -69,10 +69,10 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
           
         --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
 
-   - Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]  
+   - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
-   - Encedemos el bluetooth de nuestro celular (ver para PC)
-   - Si desconectamos la placa luego del flasheo, en el Paso Opcional, la debemnos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio, por medio de una bateria portatil, o por medio de algun puerto que nos brinde 3.3 V)
+   - Encedemos el bluetooth de nuestro celular (ver como es para PC)
+   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio, por medio de una bateria portatil, o por medio de algun puerto que nos brinde 3.3 V)
    - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
@@ -105,10 +105,11 @@ En las siguientes secciones, profundizaremos en la configuración y optimizació
            <p align="center">
            <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/b208a8be-7708-401a-8fe0-17b497d2f034" />
            </p>
-        
+
+   - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
-   - Encedemos el bluetooth de nuestro celular (ver para PC)
-   - Si desconectamos la placa luego del flasheo, en el Paso Opcional, la debemnos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio, por medio de una bateria portatil, o por medio de algun puerto que nos brinde 3.3 V)
+   - Encedemos el bluetooth de nuestro celular (ver como es para PC)
+   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio, por medio de una bateria portatil, o por medio de algun puerto que nos brinde 3.3 V)
    - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. Generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*
    
 - ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
