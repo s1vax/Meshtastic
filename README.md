@@ -23,13 +23,13 @@ Unlike traditional communications that rely on cell towers or central Wi-Fi rout
 
 The flexibility of not depending on external infrastructure makes Meshtastic ideal for multiple scenarios:
 
-* **Off-Grid Communications:** Mantener el contacto en zonas sin cobertura celular (montañas, zonas rurales o rutas aisladas).
-* **Security and Privacy:** Al contar con encriptación AES256, es utilizado por comunidades y grupos que requieren canales de comunicación seguros y auditables.
-* **Emergency Cases:** Despliegue rápido de redes de comunicación tras desastres naturales donde la infraestructura tradicional ha caído.
-* **Events and Coordination:** Mantener a un equipo conectado en festivales, conferencias o grandes predios.
-* **RF experimentation:** Pruebas de telemetría, alcance de antenas y topologías de red en bandas de uso libre (como 915 MHz o 433 MHz, dependiendo de la región).
+* **Off-Grid Communications:** Maintain contact in areas without cell phone coverage (mountains, rural areas or isolated routes).
+* **Security and Privacy:** Featuring AES256 encryption, it is used by communities and groups that require secure and auditable communication channels.
+* **Emergency Cases:** Rapid deployment of communication networks after natural disasters where traditional infrastructure has collapsed.
+* **Events and Coordination:** Keeping a team connected at festivals, conferences, or large venues.
+* **RF experimentation:** Telemetry tests, antenna range and network topologies in unlicensed bands (such as 915 MHz or 433 MHz, depending on the region).
 
-## ⚙️ ¿Cómo funciona?
+## ⚙️ ¿How it works?
 
 El sistema se basa en dos pilares fundamentales:
 
