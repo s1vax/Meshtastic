@@ -33,10 +33,10 @@ The flexibility of not depending on external infrastructure makes Meshtastic ide
 
 El sistema se basa en dos pilares fundamentales:
 
-1.  **Tecnología LoRa:** Utiliza modulación de radiofrecuencia de largo alcance y bajo consumo de energía. Esto permite enviar pequeños paquetes de datos (como texto o coordenadas GPS) a varios kilómetros de distancia utilizando baterías pequeñas.
-2.  **Topología de Malla (Mesh):** Aquí está la magia. Cada dispositivo (nodo) en la red no solo envía y recibe sus propios mensajes, sino que actúa como un **repetidor** para los demás. Si el Nodo A quiere hablar con el Nodo C, pero están muy lejos, el mensaje puede saltar a través del Nodo B que está en el medio. Cuantos más nodos haya, más robusta y amplia se vuelve la red.
+1.  **LoRa technology:** It uses long-range, low-power radio frequency modulation. This allows small data packets (such as text or GPS coordinates) to be sent several kilometers away using small batteries.
+2.  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes.
 
-## 🚀 ¿Cómo podemos empezar? --> Pasos Generales
+## 🚀 ¿How can we start? --> General Steps
 
 Empezar con Meshtastic es accesible y requiere pocos componentes. De forma breve, los pasos para empezar a involucrarte con algun dispositivo Meshtastic consisten en lo siguiente:
 
