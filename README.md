@@ -80,7 +80,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
 
-### ⚡Ventajas
+### ⚡Advantages
   
 <br>
 <br>
@@ -93,7 +93,7 @@ In the following sections, we will delve deeper into the configuration and optim
 
 ### ❓ How do we configure it?
 
-- 👉 En primer lugar, podemos conseguir esta placa de dos paginas principales (de Argentina):
+- 👉 First, we can get this license plate from two main pages (from Argentina):
    - Mercado Libre --> https://www.mercadolibre.com.ar/xiao-nrf52840--wiosx1262-kit-meshtastic-blelora-862930-m/up/MLAU3394520637#polycard_client=search-desktop&search_layout=grid&position=1&type=product&float_highlight=repurchase&tracking_id=3a7aa470-9531-405d-8084-412034cb75f7&wid=MLA1519008445&sid=search
    
 - 📻 Una vez adquirida la placa, vamos a realizar los pasos de inicializacion:
@@ -122,4 +122,4 @@ In the following sections, we will delve deeper into the configuration and optim
 - ⚙️ Configuraciones de la placa y comunicacion ***(importante para correcto funcionamiento)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
 
-### ⚡Ventajas
+### ⚡Advantages
