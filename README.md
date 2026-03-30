@@ -96,9 +96,15 @@ In the following sections, we will delve deeper into the configuration and optim
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: client.meshtastic.org
-   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular. En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla.
+   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular. En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
+      <p align="center">
+<img width="1808" height="827" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
+           </p>
+   
    - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB de nuestra PC como al inicio o por medio de una bateria portatil, cuanto voltaje?)
-   - Abrimos la app de Meshtastic y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth
+   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
+   <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
+
    
 - ⚙️ Configuraciones de la placa ***(importante para correcto funcionamiento)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
