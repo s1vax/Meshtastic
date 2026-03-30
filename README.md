@@ -140,6 +140,7 @@ In the following sections, we will delve deeper into the configuration and optim
           <p align="center">
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
+        --> Por ultimo, con esto realizado, nos descargara un archivo. A este mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo meshtastic al conectarlo a nuestra PC (aparece como un disco)
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
