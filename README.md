@@ -106,8 +106,10 @@ In the following sections, we will delve deeper into the configuration and optim
    - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
-
-
+     
+<p align="center">
+   <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
+</p>
      --> En PC:
      
 <p align="center">
