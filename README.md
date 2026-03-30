@@ -70,6 +70,10 @@ In the following sections, we will delve deeper into the configuration and optim
    - Como paso siguiente, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Este paso consiste en lo siguiente:
           
         --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
+               <p align="center">
+          <img width="1902" height="836" alt="image" src="https://github.com/user-attachments/assets/f29672f0-f267-45ff-8dba-a8be2c8c7d83" />
+          </p>
+        --> Seleccionamos o buscamos nuestra placa, en este caso la `Heltec t114 v2 NRF52840 (with screen)`:
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
