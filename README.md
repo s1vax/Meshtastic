@@ -74,6 +74,13 @@ In the following sections, we will delve deeper into the configuration and optim
           <img width="1902" height="836" alt="image" src="https://github.com/user-attachments/assets/f29672f0-f267-45ff-8dba-a8be2c8c7d83" />
           </p>
         --> Seleccionamos o buscamos nuestra placa, en este caso la `Heltec t114 v2 NRF52840 (with screen)`:
+      <p align="center">
+     <img width="1828" height="930" alt="image" src="https://github.com/user-attachments/assets/e46cfed5-cdd8-4d65-805c-01bb57e27aed" />
+     </p>
+        --> Luego, en el apartado de `Firmware` debemos seleccionar la version del mismo a descargar. Es recomendado que se escoja una version `Beta` ya que son las mas estables:
+              <p align="center">
+        <img width="1828" height="925" alt="image" src="https://github.com/user-attachments/assets/0df711dc-945d-4329-8937-ae3ef16620d7" />
+     </p>
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
