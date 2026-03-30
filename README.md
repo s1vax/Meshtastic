@@ -123,6 +123,18 @@ In the following sections, we will delve deeper into the configuration and optim
            <p align="center">
            <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/b208a8be-7708-401a-8fe0-17b497d2f034" />
            </p>
+        --> Una vez seleccionado la version del `Firmware`, clickeamos en `Flashear`, y nos saldra una ventana emergente diciendo todas las caractericas de esa version. Le damos en `Continuar`: 
+           <p align="center">
+            <img width="1677" height="753" alt="image" src="https://github.com/user-attachments/assets/fbbf21ac-f5b2-4396-a7e5-1df12ac60add" />
+           </p>
+        --> Seguido, vamos a ver otra ventana emergente siguiente. Lo que debemos hacer es que la placa entre en modo DFU. Para ello clickeamos donde dice `Entrar en Modo DFU` y en nuestro navegador se abrira una lista de los puertos USB con los dispositivos conectados. Deberemos de ubicar nuestra placa mesh (viendo en que COM de nuestra computadora esta conectada) y darle click, y luego `Conectar`:
+        <p align="center">
+        <img width="1171" height="600" alt="image" src="https://github.com/user-attachments/assets/745bc626-58d5-471b-8b8d-a894ed58c822" />
+           </p>
+
+        <p align="center">
+         <img width="1598" height="837" alt="image" src="https://github.com/user-attachments/assets/07a5120c-c9c3-4f54-8823-1dcb32fe30dd" />
+           </p>
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, ... (ver pagina o app para PC)
