@@ -120,6 +120,11 @@ In the following sections, we will delve deeper into the configuration and optim
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
 
 ### ⚡Advantages
+- Viene con pantalla incorporada
+- Viene con antena
+- Tamaño de hardware mediano/pequeño
+- Personalizacion de perifericos (alta)
+
   
 <br>
 <br>
@@ -197,5 +202,6 @@ In the following sections, we will delve deeper into the configuration and optim
 
 ### ⚡Advantages
 - Tamaño de hardware muy reducido
+- Viene con antena
 - Personalizacion de perifericos (alta)
 - Modulo LoRa incorporado
