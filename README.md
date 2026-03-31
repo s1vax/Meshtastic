@@ -125,7 +125,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - It comes with soldering pins
 - It comes with power cables for batteries (portable)
 - It comes with an input for a GPS module
-- Tamaño de hardware mediano/pequeño
+- Medium/small hardware size
 - Personalizacion de perifericos (alta)
 - Entrada de alimentacion USB-C
 
