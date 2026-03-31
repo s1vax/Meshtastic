@@ -126,7 +126,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - It comes with power cables for batteries (portable)
 - It comes with an input for a GPS module
 - Medium/small hardware size
-- Personalizacion de perifericos (alta)
+- Peripheral customization (high)
 - Entrada de alimentacion USB-C
 
   
