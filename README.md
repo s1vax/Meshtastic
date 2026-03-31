@@ -123,7 +123,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - Comes with built-in screen
 - Comes with antenna
 - It comes with soldering pins
-- Viene con cables de alimentacion para baterias (portatil)
+- It comes with power cables for batteries (portable)
 - Viene con entrada para modulo GPS
 - Tamaño de hardware mediano/pequeño
 - Personalizacion de perifericos (alta)
