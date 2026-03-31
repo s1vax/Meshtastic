@@ -124,7 +124,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - Comes with antenna
 - It comes with soldering pins
 - It comes with power cables for batteries (portable)
-- Viene con entrada para modulo GPS
+- It comes with an input for a GPS module
 - Tamaño de hardware mediano/pequeño
 - Personalizacion de perifericos (alta)
 - Entrada de alimentacion USB-C
