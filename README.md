@@ -96,14 +96,14 @@ In the following sections, we will delve deeper into the configuration and optim
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: https://client.meshtastic.org
-   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular. En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
+   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular (tambien hay opciones por cable USB e internet en celular). En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
    
 <p align="center">
 <img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
 </p>
    
    - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB 2.0 de nuestra PC como al inicio o por medio de una bateria portatil, o algo que nos brinde 5 V)
-   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth; generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
+   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth (o via otras opciones); generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
      
@@ -181,14 +181,14 @@ In the following sections, we will delve deeper into the configuration and optim
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: https://client.meshtastic.org
-   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular. En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
+   - Si elegimos configurar la placa via telefono celular, encedemos el bluetooth de nuestro celular (tambien hay otro tipo de opciones de configuracion como por cable USB e internet en celular). En caso de haber seleccionado PC, simplemente por medio de un cable USB ya nos permite configurarla (tambien en PC se puede via Bluetooth o HTTP).
    
 <p align="center">
 <img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
 </p>
    
    - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB 2.0 de nuestra PC como al inicio o por medio de una bateria portatil, o algo que nos brinde 5 V)
-   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth; generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
+   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth (o via otras opciones); generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
      
