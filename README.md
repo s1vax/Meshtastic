@@ -207,6 +207,6 @@ In the following sections, we will delve deeper into the configuration and optim
 ### ⚡Advantages
 - Tamaño de hardware muy reducido
 - Viene con antena
-- Personalizacion de perifericos (alta)
+- Peripheral customization (high)
 - Built-in (detachable) LoRa module
 - USB-C power input
