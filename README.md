@@ -66,7 +66,7 @@ In the following sections, we will delve deeper into the configuration and optim
    - Mercado Libre (international) (model with 3D Case but without GPS plate) --> https://www.mercadolibre.com.ar/meshtastic-tracker-t114-v2-nordic-nrf52840-sx1262-lorawa/p/MLA2068680206#polycard_client=search-desktop&search_layout=grid&position=26&type=product&tracking_id=304d39fc-bcfe-4be4-abb9-f76de48062d1&wid=MLA3055433870&sid=search
    
 - 📻 Once the board has been acquired, we will perform the initialization steps:
-   - ⚠️ ***IMPORTANT*** ⚠️ Antes de alimentar la placa por medio del puerto USB-C, debemos conectar alguna antena (ya sea la que trae por default o cualquier otra que tengamos) a su puerto LoRa. Asegurado esto, la conectamos a nuestra PC (para alimentacion y flasheo) por medio de los puertos USB 2.0 [los puertos 3.0 no son recomendados para conectar la placa debido a la generacion de interferencias]
+   - ⚠️ ***IMPORTANT*** ⚠️ Before powering the board via the USB-C port, we must connect an antenna (either the one it comes with or any other we have) to its LoRa port. Once this is done, we connect it to our PC (for power and flashing) via the USB 2.0 ports [USB 3.0 ports are not recommended for connecting the board due to interference].
    - Como siguiente instruccion, procedemos a flashear la placa a traves de su [flasheador web](https://flasher.meshtastic.org/). Sin embargo, a diferencia de la placa Meshtastic descrita mas abajo (la Seed Xiao nRF52840), esta no se flashea directamente de la web, sino que se hace un paso menos. Los pasos de flasheo consisten en lo siguiente:
           
         --> Abrimos el flasheador web, y nos vamos al apartado de `Select Target Device`
