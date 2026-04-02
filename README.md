@@ -103,7 +103,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <img width="750" height="800" alt="image" src="https://github.com/user-attachments/assets/e44b108b-ee8f-4a3c-bdcd-740c9b57c742" />
 </p>
    
-   - En caso de haber desconectado la placa luego del flasheo, en el *Paso Opcional*, la debemos de volver a alimentar mediante el cable USB-C (podemos alimentarla esta vez, por medio de los puertos USB 2.0 de nuestra PC como al inicio o por medio de una bateria portatil, o algo que nos brinde 5 V)
+   - If you disconnected the board after flashing, in the *Optional Step*, you must power it again using the USB-C cable (you can power it this time through the USB 2.0 ports of your PC as at the beginning or through a portable battery, or something that provides 5V).
    - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth (o via otras opciones); generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
 
      --> En celular:
