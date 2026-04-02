@@ -104,7 +104,7 @@ In the following sections, we will delve deeper into the configuration and optim
 </p>
    
    - If you disconnected the board after flashing, in the *Optional Step*, you must power it again using the USB-C cable (you can power it this time through the USB 2.0 ports of your PC as at the beginning or through a portable battery, or something that provides 5V).
-   - Abrimos la app de Meshtastic (en el celular) y nos deberia salir en el apartado de `Connection`, nuestro dispositivo para conectar via Bluetooth (o via otras opciones); generalmente sale con un nombre estilo: *"Meshtastic_XXXX"*. En PC, yendo a `Add connection` (seleccionamos la via por la cual queremos conectar el dispositivo), y luego le damos en `Connect`:
+   - Open the Meshtastic app (on your phone) and your device should appear in the `Connection` section, ready to connect via Bluetooth (or other options); it usually has a name like *"Meshtastic_XXXX"*. On a PC, go to `Add connection` (select the method you want to use to connect the device), and then click `Connect`.
 
      --> En celular:
      
