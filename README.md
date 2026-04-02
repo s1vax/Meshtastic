@@ -88,12 +88,12 @@ In the following sections, we will delve deeper into the configuration and optim
         <img width="1349" height="757" alt="image" src="https://github.com/user-attachments/assets/bdae9d50-a56a-4796-a8e6-b53f659a9639" />
            </p>
 
-        --> Seguido del paso anterior, vamos a ver  que se nos abre otra ventana emergente. Le damos directamente en `Descargar UF2`:
+        --> Seguido del paso anterior, vamos a ver que se nos abre otra ventana emergente. Le damos directamente en `Descargar UF2`:
       <p align="center">
         <img width="1200" height="700" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
            </p>
 
-        --> Lo que va a suceder es que se nos va a descargar un archivo. Al mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
+        --> What will happen is that a file will be downloaded. You will need to copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for this to take a little while and for the board to restart. And that's it! Your Meshtastic board is now flashed and ready to use and configure.
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*  
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: https://client.meshtastic.org
