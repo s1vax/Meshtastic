@@ -199,7 +199,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <p align="center">
   <img width="314" height="588" alt="image" src="https://github.com/user-attachments/assets/ec389f05-ea8f-4707-bf0c-ec3644b65645" />
 </p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> En PC:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> On PC:
 
 <br>
 <br>
