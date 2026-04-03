@@ -181,7 +181,7 @@ In the following sections, we will delve deeper into the configuration and optim
           <p align="center">
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
-        --> Por ultimo, con esto realizado, se nos descargara un archivo. A este mismo, lo deberemos copiar en la carpeta que nos genero el dispositivo Meshtastic al conectarlo a nuestra PC (aparece como un disco). Es normal que tarde un poco en transferirse y que la placa se reinicie. Y listo! Nuestra placa Meshtastic ya se encuentrada flasheada = lista para funcionar y configurarla.
+        --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart. And that's it! Your Meshtastic board is now flashed and ready to use and configure.
 
    - *Paso opcional [Una vez flasheada la placa, se la puede desconectar de la PC]*    
    - Luego de eso, para obtener el software de configuracion Meshtastic, vamos a descargar la app de Meshtastic de la PlayStore en nuestro celular, o sino, podemos directamente entrar desde nuestra PC a: https://client.meshtastic.org
