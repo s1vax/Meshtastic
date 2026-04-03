@@ -168,7 +168,7 @@ In the following sections, we will delve deeper into the configuration and optim
            <p align="center">
             <img width="1677" height="753" alt="image" src="https://github.com/user-attachments/assets/fbbf21ac-f5b2-4396-a7e5-1df12ac60add" />
            </p>
-        --> 
+        --> Next, we'll see another pop-up window. What we need to do is put the board into DFU mode. To do this, click where it says `Enter DFU Mode`, and a list of USB ports with connected devices will open in your browser. You'll need to locate your mesh board (by noting which COM port on your computer it's connected to), click on it, and then click `Connect`.
         <p align="center">
         <img width="1171" height="600" alt="image" src="https://github.com/user-attachments/assets/745bc626-58d5-471b-8b8d-a894ed58c822" />
            </p>
