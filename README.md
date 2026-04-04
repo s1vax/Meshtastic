@@ -219,4 +219,4 @@ In the following sections, we will delve deeper into the configuration and optim
 - Built-in (detachable) LoRa module
 - USB-C power input
 
-### I hope you found this helpful and enjoyable. This is for educational purposes. If you found it useful, leave a star ⭐ Best wishes and much success!
+### I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
