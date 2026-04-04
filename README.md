@@ -207,7 +207,7 @@ In the following sections, we will delve deeper into the configuration and optim
 </p>
    
 - ⚙️ Board settings ***(important for proper operation)***
-   - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a 
+   - Esta parte es igual a la del dispositivo mesh `Heltec t114 v2`. Por lo que si sos de Argentina, debes de seguir las mismas configuraciones.
 
 ### ⚡Advantages
 - Very small hardware size
