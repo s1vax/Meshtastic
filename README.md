@@ -218,3 +218,5 @@ In the following sections, we will delve deeper into the configuration and optim
 - Peripheral customization (high)
 - Built-in (detachable) LoRa module
 - USB-C power input
+
+### I hope you found this helpful and enjoyable. This is for educational purposes. If you found it useful, leave a star ⭐ Best wishes and much success!
