@@ -99,12 +99,12 @@ In the following sections, we will delve deeper into the configuration and optim
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
    - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also options via USB cable and internet on the phone). If we selected PC, we can simply configure it using a USB cable (on a PC, it can also be done via Bluetooth or HTTP).
      
-     --> Connections type on cell phone
+     --> Connections type on cell phone (Internet, Bluetooth & Serial)
         <p align="center">
         <img width="314" height="252" alt="572789225-ec389f05-ea8f-4707-bf0c-ec3644b65645(1)" src="https://github.com/user-attachments/assets/27985b4e-a6d8-4d1f-9580-d357945ea234" />
         </p>  
      
-     --> Connections type on PC
+     --> Connections type on PC (HTTP, Bluetooth & Serial)
         <p align="center">
         <img width="1808" height="325" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(1)" src="https://github.com/user-attachments/assets/fb7ea136-f5c2-4215-a214-d1f00b60fd54" />
         </p>  
@@ -195,12 +195,12 @@ In the following sections, we will delve deeper into the configuration and optim
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
    - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also other configuration options such as USB cable and internet access on the phone). If we selected PC, we can simply configure it using a USB cable (it can also be done via Bluetooth or HTTP on a PC).
      
-     --> Connections type on cell phone
+     --> Connections type on cell phone 
         <p align="center">
         <img width="314" height="252" alt="572789225-ec389f05-ea8f-4707-bf0c-ec3644b65645(1)" src="https://github.com/user-attachments/assets/27985b4e-a6d8-4d1f-9580-d357945ea234" />
         </p>  
      
-     --> Connections type on PC
+     --> Connections type on PC 
         <p align="center">
         <img width="1808" height="325" alt="571588472-e44b108b-ee8f-4a3c-bdcd-740c9b57c742(1)" src="https://github.com/user-attachments/assets/fb7ea136-f5c2-4215-a214-d1f00b60fd54" />
         </p>  
