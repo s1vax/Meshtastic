@@ -218,7 +218,7 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - ⚙️ Board settings ***(important for proper operation)***
    - This section is the same as the one above, for the Heltec t114 v2 mesh device. Therefore, if you are in Argentina, you should follow the same settings mentioned previously.
-   [Heltec T114 v2 (with screen)](###🔹-heltec-t114-v2-(with-screen))
+   [🔹 Heltec T114 v2 (with screen)](###-heltec-t114-v2-(with-screen))
 
 
 ### ⚡Advantages
