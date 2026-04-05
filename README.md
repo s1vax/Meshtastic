@@ -97,8 +97,9 @@ In the following sections, we will delve deeper into the configuration and optim
 
    - *Optional step [Once the board has been flashed, it can be disconnected from the PC]*  
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
-   - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also options via USB cable and internet on the phone). If we selected PC, we can simply configure it using a USB cable (on a PC, it can also be done via Bluetooth or HTTP).
-     --> On cellphone
+   - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also options via USB cable and internet on the phone). If we selected PC, we can simply configure it using a USB cable (on a PC, it can also be done via Bluetooth or HTTP).<
+     
+     --> On cell phone
    
      --> On PC
         <p align="center">
