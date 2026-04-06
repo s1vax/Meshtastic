@@ -14,7 +14,7 @@
 
 ---
 
-### 🙌 Pueden traducir este y los demas repositorios con el traductor de google 🙌
+### 🙌 Pueden traducir este y los demas repositorios, con el traductor de google de su navegador web o con alguna otra extensión 🙌
 
 ---
 
@@ -46,13 +46,15 @@ The system is based on two fundamental pillars:
 
 📡  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes.
 
+- *Meshtastic Maps & MQTT*:
+
 ## 🚀 ¿How can we start? --> General Steps
 
 Getting started with Meshtastic is accessible and requires few components. In short, the steps to begin using any Meshtastic device are as follows:
 
 1.  ***Get the Hardware:*** You need a development board that integrates a microcontroller (such as an ESP32 or nRF52) and a LoRa radio chip.
 2.  ***Flash the Firmware:*** ⚠️ ***IMPORTANT*** ⚠️ Before powering the board, we must connect an antenna, either the one that comes on the package or another one. Once this is secured, we proceed to connect the board to the computer and install the official Meshtastic firmware using their web flasher (https://flasher.meshtastic.org/).
-3.  ***Download the Meshtastic App:*** Install the Meshtastic app on your smartphone (iOS or Android), or visit the Meshtastic setup website for PC (https://client.meshtastic.org).
+3.  ***Use the Meshtastic App:*** Install the Meshtastic app on your smartphone (iOS or Android), or visit the Meshtastic setup website for PC (https://client.meshtastic.org).
 4.  ***Pair and Configure:*** Connect your phone to the panel via Bluetooth. From the app, you can configure your region (legal frequency), set a username, and start sending messages to the mesh network.
 
 ---
@@ -141,7 +143,13 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - ⚙️ Board settings ***(important for proper operation)***
    - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
-   - Canales actuales de Argentina (el siguiente link SOLO se puede abrir desde el celular, y hara que se agreguen automaticamente los canales de comunicacion mesh en la app de Meshtastic): https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
+   - Canales actuales de Argentina (el siguiente link lo pueden abrir desde su celular o copiar el link en su PC, y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic):
+https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
+
+--> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
+<p align="center">
+<img width="1300" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
+</p>
 
 ### ⚡Advantages
 - Comes with built-in screen
@@ -154,6 +162,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - USB-C power input
 
   
+<br>
 <br>
 <br>
 
