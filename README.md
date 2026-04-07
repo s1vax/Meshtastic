@@ -3,10 +3,11 @@
 
 <p align="center">
    
-![meshtastic-banner](https://github.com/user-attachments/assets/b67f0d6d-6899-40ca-84ea-4ff4b66120cf)
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/a6218dca-af3a-496f-8577-7fef0b3c06f1" />
+
 </p>
 
- [![Meshtastic](https://img.shields.io/badge/Meshtastic-00750B?style=for-the-badge)](https://meshtastic.org/)
+  [![Meshtastic](https://img.shields.io/badge/Meshtastic_Website-00750B?style=for-the-badge)](https://meshtastic.org/) 
 
 
 
@@ -54,7 +55,7 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 
 1.  ***Get the Hardware:*** You need a development board that integrates a microcontroller (such as an ESP32 or nRF52) and a LoRa radio chip.
 2.  ***Flash the Firmware:*** ⚠️ ***IMPORTANT*** ⚠️ Before powering the board, we must connect an antenna, either the one that comes on the package or another one. Once this is secured, we proceed to connect the board to the computer and install the official Meshtastic firmware using their web flasher (https://flasher.meshtastic.org/).
-3.  ***Use the Meshtastic App:*** Install the Meshtastic app on your smartphone (iOS or Android), or visit the Meshtastic setup website for PC (https://client.meshtastic.org).
+3.  ***Use the Meshtastic App´s:*** Install the Meshtastic app on your smartphone (iOS or Android), or visit the Meshtastic setup website for PC (https://client.meshtastic.org).
 4.  ***Pair and Configure:*** Connect your phone to the panel via Bluetooth. From the app, you can configure your region (legal frequency), set a username, and start sending messages to the mesh network.
 
 ---
@@ -106,7 +107,7 @@ In the following sections, we will delve deeper into the configuration and optim
 
         --> What will happen is that a file will be downloaded. You will need to copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for this to take a little while and for the board to restart. And that's it! Your Meshtastic board is now flashed and ready to use and configure.
 
-   - *Optional step [Once the board has been flashed, it can be disconnected from the PC]*  
+   - ***Optional step [Once the board has been flashed, it can be disconnected from the PC]***  
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
    - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also options via USB cable and internet on the phone). If we selected PC, we can simply configure it using a USB cable (on a PC, it can also be done via Bluetooth or HTTP).
      
@@ -142,13 +143,15 @@ In the following sections, we will delve deeper into the configuration and optim
 <br>
    
 - ⚙️ Board settings ***(important for proper operation)***
-   - Ahora en esta parte veremos como hacer funcionar el dispositivo o "nodo". Una vez que estemos conectados con el dispotivo adquirido por medio de la app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
-   - Canales actuales de Argentina (el siguiente link lo pueden abrir desde su celular o copiar el link en su PC, y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic):
+   - Ahora en esta parte veremos como hacer funcionar el nodo. Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
+   
+   - ***Canales de meshtastic actuales de Argentina*** (el siguiente link lo pueden abrir desde su celular o en PC, pegar el link en el sitio web de Meshtastic (mas abajo en la imagen se explica como), y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic):
 https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
 
---> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
+     
 <p align="center">
-<img width="1300" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
+<img width="859" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
 </p>
 
 ### ⚡Advantages
@@ -212,7 +215,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
            </p>
         --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart. And that's it! Your Meshtastic board is now flashed and ready to use and configure.
 
-   - *Optional step [Once the board has been flashed, it can be disconnected from the PC]*    
+   - ***Optional step [Once the board has been flashed, it can be disconnected from the PC]***    
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
    - If we choose to configure the board via cell phone, we turn on our phone's Bluetooth (there are also other configuration options such as USB cable and internet access on the phone). If we selected PC, we can simply configure it using a USB cable (it can also be done via Bluetooth or HTTP on a PC).
      
