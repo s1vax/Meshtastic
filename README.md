@@ -166,6 +166,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
 ### 🎯 ¿Que funcionalidades nuevas le podemos agregar?
 
+
   
 <br>
 <br>
@@ -260,5 +261,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - Peripheral customization (high)
 - Built-in (detachable) LoRa module
 - USB-C power input
+
+### 🎯 ¿Que funcionalidades nuevas le podemos agregar?
+
 
 ### I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
