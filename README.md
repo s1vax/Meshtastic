@@ -164,10 +164,10 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - Peripheral customization (high)
 - USB-C power input
 
-### 🎯 ¿Que funcionalidades nuevas le podemos agregar?
+### 🎯 ¿What new features can we add?
 
 
-  
+<br>
 <br>
 <br>
 <br>
