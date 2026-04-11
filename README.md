@@ -265,5 +265,12 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 ### 🎯 ¿What new features can we add?
 
 <br>
+<br>
+<br>
+<br>
+
+### 🔹 Other Meshtastic models
+
+<br>
 
 ### I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
