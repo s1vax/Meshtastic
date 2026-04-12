@@ -80,7 +80,6 @@ In the following sections, we will delve deeper into the configuration and optim
 - ***[Optional]*** For power we can use a `Lipo Battery`
 
 <br>
-<br>
 
 ### ❓ How do we configure it?
 
@@ -154,7 +153,7 @@ In the following sections, we will delve deeper into the configuration and optim
 </p>
 <br>
    
-- ⚙️ Board settings ***(important for proper operation)***
+- 💽 Board settings ***(important for proper operation)***
    - Ahora en esta parte veremos como hacer funcionar el nodo. Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
    
    - ***Canales de meshtastic actuales de Argentina*** (el siguiente link lo pueden abrir desde su celular o en PC, pegar el link en el sitio web de Meshtastic (mas abajo en la imagen se explica como), y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic):
@@ -198,7 +197,6 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - `Micro USB cable`
 - ***[Optional]*** For power we can use a `Lipo Battery`
 
-<br>
 <br>
 
 ### ❓ How do we configure it?
@@ -273,7 +271,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 </p>
 <br>
    
-- ⚙️ Board settings ***(important for proper operation)***
+- 💽 Board settings ***(important for proper operation)***
    - This section is the same as the one above, for the Heltec t114 v2 mesh device. Therefore, if you are in Argentina, you should follow the same settings mentioned previously.
    [🔹 Heltec T114 v2 (with screen)](https://github.com/s1vax/Meshtastic/tree/main?tab=readme-ov-file#-heltec-t114-v2-with-screen) (in the `Board settings` section)
 
