@@ -70,6 +70,7 @@ In the following sections, we will delve deeper into the configuration and optim
 <img width="214" height="99" alt="image" src="https://github.com/user-attachments/assets/8528d90b-ed64-4ae9-bb28-11259c6f82cb" />
 </p>
 
+
 ### 🛒 Things we need
 
 - A `PC` for the firmware flashing & for power
@@ -78,6 +79,8 @@ In the following sections, we will delve deeper into the configuration and optim
 - `Micro USB cable`
 - ***[Optional]*** For power we can use a `Lipo Battery`
 
+<br>
+<br>
 
 ### ❓ How do we configure it?
 
@@ -195,6 +198,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - `Micro USB cable`
 - ***[Optional]*** For power we can use a `Lipo Battery`
 
+<br>
+<br>
 
 ### ❓ How do we configure it?
 
