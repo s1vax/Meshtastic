@@ -76,7 +76,7 @@ In the following sections, we will delve deeper into the configuration and optim
 - The `Heltec t114 v2 (with screen)` module
 - `Phone` or `PC` for connectivity & configuration (GPS, MQTT, Channels, etc.)
 - `Micro USB cable`
-- ***[Optional]*** For power we can use a Lipo Battery
+- ***[Optional]*** For power we can use a `Lipo Battery`
 
 
 ### ❓ How do we configure it?
@@ -173,7 +173,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - Peripheral customization (high)
 - USB-C power input
 
-### 🎯 ¿What new features can we add?
+### 📈 ¿What new features can we add?
 
 
 <br>
