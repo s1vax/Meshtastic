@@ -165,6 +165,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <img width="859" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
 </p>
 
+<br>
+
 ### ⚡Advantages
 - Comes with built-in screen
 - Comes with antenna
@@ -174,6 +176,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - Medium/small hardware size
 - Peripheral customization (high)
 - USB-C power input
+
+<br>
 
 ### 📈 ¿What new features can we add?
 
