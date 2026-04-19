@@ -77,7 +77,6 @@ In the following sections, we will delve deeper into the configuration and optim
 - The `Heltec t114 v2 (with screen)` module
 - `Phone` or `PC` for connectivity & configuration (GPS, MQTT, Channels, etc.)
 - `Micro USB cable`
-- ***[Optional]*** For power we can use a `Lipo Battery`
 
 <br>
 
@@ -323,7 +322,7 @@ Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctu
        Y ademas, `capacitores electrolíticos`. Se coloca uno (de 100µF o 470µF) en la entrada del cargador solar ayuda a estabilizar el voltaje cuando pasan nubes rápidas.
 
         <p align="center">
-       <img width="1280" height="720" alt="Conexion de baterias en parte trasera" src="https://github.com/user-attachments/assets/c2d85b29-9aa1-4b38-9001-fcc17e2a2f02" />
+       <img width="1280" height="720" alt="Conexion de baterias en parte trasera" src="https://github.com/user-attachments/assets/f408ce6e-bf67-434a-84ff-1ad43b9bb5af" />
        </p>
        
     - `Baterías LiPo/Li-ion`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V.
