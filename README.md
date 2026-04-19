@@ -41,19 +41,19 @@ The system is based on two fundamental pillars:
 
 📡  **LoRa technology:** It uses long-range, low-power radio frequency modulation. This allows small data packets (such as text or GPS coordinates) to be sent several kilometers away using small batteries.
 
-- *Frequencies*: Meshtastic uses ISM (Industrial, Scientific, and Medical) license-free bands. These vary by region to comply with local laws:
+- `Frequencies`: Meshtastic uses ISM (Industrial, Scientific, and Medical) license-free bands. These vary by region to comply with local laws:
     - North America: 915 MHz
     - Europe: 868 MHz
     - Asia/Oceania/Others: Often 433 MHz or 923 MHz.
-- *Power Consumption*: Extremely low. Most devices (like the Heltec V3 or T-Beam) consume between 20mA and 100mA while active. On a standard 3000mAh 18650 battery, a device can last anywhere from 24 hours to several days depending on screen usage and sleep settings.
-- *Distances*: 
+- `Power Consumption`: Extremely low. Most devices (like the Heltec V3 or T-Beam) consume between 20mA and 100mA while active. On a standard 3000mAh 18650 battery, a device can last anywhere from 24 hours to several days depending on screen usage and sleep settings.
+- `Distances`: 
     - Urban: ≈ 1–5 km (due to buildings/interference).
     - Rural/Line of Sight: ≈ 10–30 km.
     - Record-breaking: With clear line of sight (mountain top to mountain top), distances can exceed ≈ 100+ km.
 
 📡  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes.
 
-- *Meshtastic Maps & MQTT*:
+- `Meshtastic Maps & MQTT`:
 
 ## 🚀 ¿How can we start? --> General Steps
 
