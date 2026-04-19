@@ -13,11 +13,6 @@
 
 ## Welcome to this guide about ***Meshtastic***. This repository aims to explain the fundamentals of this decentralized communication technology and document the configuration of specific nodes.
 
----
-
-### 🙌 Pueden traducir este y los demas repositorios, con el traductor de google de su navegador web o con alguna otra extensión 🙌
-
----
 
 ## 🔎 ¿What is Meshtastic?
 
