@@ -190,6 +190,9 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Heltec t114 v2` viene con un conector de 8 pines especificamente para modulos de GPS/GNSS (como el `L76K GNSS`).
 - ***Sistema de Energia:*** 
    - `Paneles Solares + Bateria`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo. En adicion, debemos utilizar una bateria LiPo/Li-ion para almacenar energia, para las cuales, este modelo Heltec tambien incluye un conector de bateria de 1.25mm y 2 pines.
+
+Solar Panel Connection diagram
+   
    - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
 - ***Sensores via I2C:***
    - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
