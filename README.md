@@ -176,13 +176,14 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - Medium/small hardware size
 - Peripheral customization (high)
 - USB-C power input
+- Solar & Battery voltage inputs
 
 <br>
 
 ### 📈 ¿What new features can we add?
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Heltec t114 v2` viene con un conector de 8 pines especificamente para modulos de GPS/GNSS (como el `L76K GNSS`).
 - ***Sistema de Energia:*** 
-   - `Paneles Solares + Bateria`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo.
+   - `Paneles Solares + Bateria`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo. En adicion, debemos utilizar una bateria LiPo/Li-ion para almacenar energia, para las cuales, este modelo Heltec tambien incluye un conector de bateria de 1.25mm y 2 pines.
    - `Baterías LiPo/Li-ion`: Soporta celdas de 3.7V. Es posible escalar desde la estándar de 800-1100mAh hasta celdas 18650 o 21700 de 5000mAh para autonomía extendida.
 - ***Sensores via I2C:***
    - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
@@ -214,7 +215,6 @@ La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el 
 - The `Xiao nrf52840 Kit` module
 - `Phone` or `PC` for connectivity & configuration (GPS, MQTT, Channels, etc.)
 - `Micro USB cable`
-- ***[Optional]*** For power we can use a `Lipo Battery`
 
 <br>
 
@@ -302,13 +302,14 @@ La antena de "resorte" que suele venir de fábrica es limitada. Para mejorar el 
 - Peripheral customization (high)
 - Built-in (detachable) LoRa module
 - USB-C power input
+- Lower power consumption
 
 <br>
 
 ### 📈 ¿What new features can we add?
 - ***XIAO Expansion Board:***
-Es la pieza clave para agregar periféricos sin soldar:
-    - `Pantalla OLED (0.96")`: Ya viene con un zócalo para conectar una pantalla SSD1306, fundamental para ver mensajes y estado del nodo.
+Es una pieza clave para agregar periféricos sin tener que soldar:
+    - `Pantalla OLED (0.96")`: Una pantalla OLED se puede agregar a la placa Xiao nrf52840 sin la necesidad de una Xiao Expansion Board, pero cabe destacar que en esta ya viene con un zócalo integrado para conectar una pantalla SSD1306, fundamental para ver mensajes y estado del nodo.
     - `RTC (Reloj en Tiempo Real)`: Incluye un chip PCF8563 que permite mantener la hora exacta incluso si el dispositivo se reinicia o pierde conexión.
     - `Slot MicroSD`: Vital si planeas hacer Data Logging (registrar posiciones GPS o lecturas de sensores durante un trayecto o vuelo).
     
@@ -320,6 +321,10 @@ Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctu
        Tambien se necesitaria un `Diodo Schottky` (como un 1N5817). Este se coloca entre el panel y el cargador. Evita el "flujo inverso", es decir, que la batería intente "alimentar" al panel solar durante la noche, lo cual la agotaría.
 
        Y ademas, `capacitores electrolíticos`. Se coloca uno (de 100µF o 470µF) en la entrada del cargador solar ayuda a estabilizar el voltaje cuando pasan nubes rápidas.
+
+        <p align="center">
+       <img width="1280" height="720" alt="Conexion de baterias en parte trasera" src="https://github.com/user-attachments/assets/c2d85b29-9aa1-4b38-9001-fcc17e2a2f02" />
+       </p>
        
     - `Baterías LiPo/Li-ion`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V.
 
