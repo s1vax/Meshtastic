@@ -201,7 +201,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - ***GPS Module:*** Meshtastic devices allow you to use your connected devices (cell phone or PC) as GPS. However, it's also possible to apply their own geolocation system so they don't depend on another device when being made "portable". That's why a GPS module can be added to identify their coordinates and other data. In the case of the Heltec t114 v2, it comes with an 8-pin connector specifically for GPS/GNSS modules (such as the L76K GNSS).
 
 - ***Sistema de Energia:*** 
-   - `Paneles Solares + Bateria`: Se puede conectar un panel de 5V a 6V (máx 1W-2W) directamente al conector solar de 1.25mm y 2 pines. No se necesita un controlador de carga externo. En adicion, debemos utilizar una bateria LiPo/Li-ion para almacenar energia, para las cuales, este modelo Heltec tambien incluye un conector de bateria de 1.25mm y 2 pines.
+   - `Paneles Solares + Battery`: A 5V to 6V panel (max 1W-2W) can be connected directly to the 1.25mm, 2-pin solar connector. No external charge controller is required. Additionally, a LiPo/Li-ion battery is needed for energy storage; this Heltec model also includes a 1.25mm, 2-pin battery connector for this purpose.
 
      Solar Panel Connection diagram
    
