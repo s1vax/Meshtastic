@@ -215,7 +215,7 @@ Function: Cuts off power if the voltage drops below 2.4V (preventing the battery
         - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
    
 - ***Sensores via I2C:***
-   - `BME280 / BME680`: Para medir temperatura, humedad, presión atmosférica y (en el caso del 680) calidad del aire. Es ideal para estaciones meteorológicas remotas.
+   - `BME280 / BME680`: It measures temperature, humidity, atmospheric pressure, and (in the case of the 680) air quality. It is ideal for remote weather stations.
    - `INA219`: Útil si planeas monitorear el voltaje y consumo de corriente, especialmente en instalaciones solares.
    - `SHT31`: Una alternativa de alta precisión para temperatura y humedad.
    
