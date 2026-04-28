@@ -205,14 +205,14 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
      Solar Panel Connection diagram
    
-   - `Baterías LiPo/Li-ion`: It supports 3.7V cells. It is possible to scale from the standard 800-1100mAh to 18650 or 21700 cells of 5000mAh for extended runtime.
+   - `LiPo/Li-ion Batteries`: It supports 3.7V cells. It is possible to scale from the standard 800-1100mAh to 18650 or 21700 cells of 5000mAh for extended runtime.
    
-        - `Circuito de Protección (PCM/BMS) para baterias LiPo` (In some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
+        - `Protection Circuit (PCM/BMS) for LiPo Batteries` (In some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
 Function: Cuts off power if the voltage drops below 2.4V (preventing the battery from permanently failing) or if there is a short circuit.
 
         - `Termistor NTC` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
         
-        - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
+        - `JST-PH Connectors` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
    
 - ***Sensores via I2C:***
    - `BME280 / BME680`: It measures temperature, humidity, atmospheric pressure, and (in the case of the 680) air quality. It is ideal for remote weather stations.
