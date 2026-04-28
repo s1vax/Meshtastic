@@ -386,7 +386,7 @@ Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SM
 <br>
 <br>
 
-### 🧊 Carcasas 3D
+### 🧊 Carcasas 3D (para los modelos de arriba)
 <br>
 <br>
 <br>
