@@ -235,6 +235,7 @@ The factory-installed "spring" antenna is limited. To improve range:
 <br>
 <br>
 <br>
+<br>
 
 ### 🔹 Seeed Studio XIAO nRF52840 Kit
 
@@ -389,8 +390,10 @@ Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SM
 <br>
 <br>
 <br>
+<br>
 
 ### 🧊 Carcasas 3D (para los modelos de arriba)
+<br>
 <br>
 <br>
 <br>
@@ -404,7 +407,7 @@ Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SM
 
 <br>
 
-👉 ***Pueden ver mas dispositivos compatibles con Meshtastic (como los de abajo) en:*** https://meshtastic.org/docs/hardware/devices/
+👉 ***You can see more Mestattastic-compatible devices (like the ones below) at:*** https://meshtastic.org/docs/hardware/devices/
 
 <br>
 
