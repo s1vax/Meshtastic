@@ -321,6 +321,7 @@ The factory-installed "spring" antenna is limited. To improve range:
 </p>
 
 <br>
+<br>
    
 - 💽 Board settings ***(important for proper operation)***
    - This section is the same as the one above, for the Heltec t114 v2 mesh device. Therefore, if you are in Argentina, you should follow the same settings mentioned previously.
@@ -340,9 +341,9 @@ The factory-installed "spring" antenna is limited. To improve range:
 
 ### 📈 ¿What new features can we add?
 - ***XIAO Expansion Board:***
-Es una pieza clave para agregar periféricos sin tener que soldar:
-    - `Pantalla OLED (0.96")`: Una pantalla OLED se puede agregar a la placa Xiao nrf52840 sin la necesidad de una Xiao Expansion Board, pero cabe destacar que en esta ya viene con un zócalo integrado para conectar una pantalla SSD1306, fundamental para ver mensajes y estado del nodo.
-    - `RTC (Reloj en Tiempo Real)`: Incluye un chip PCF8563 que permite mantener la hora exacta incluso si el dispositivo se reinicia o pierde conexión.
+It's a key component for adding peripherals without soldering.:
+    - `OLED Screen (0.96")`: An OLED screen can be added to the Xiao nrf52840 board without the need for a Xiao Expansion Board, but it should be noted that it already comes with an integrated socket to connect an SSD1306 screen, essential for viewing messages and node status.
+    - `RTC (Real Time Clock)`: Incluye un chip PCF8563 que permite mantener la hora exacta incluso si el dispositivo se reinicia o pierde conexión.
     - `Slot MicroSD`: Vital si planeas hacer Data Logging (registrar posiciones GPS o lecturas de sensores durante un trayecto o vuelo).
     
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Seed Studio Xiao nrf52840 Kit` requiere un módulo Grove GPS (`Grove - GPS Air530Z`, de alta precisión y bajo consumo, ideal para que el nodo transmita su ubicación) o soldar a pines UART (TX/RX), por ejemplo al `L76K GNSS`.
