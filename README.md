@@ -225,8 +225,8 @@ The factory-installed "spring" antenna is limited. To improve range:
    - `Antenas Dipolo o Fibra de Vidrio`: If the node will be fixed (Router), a 3dBi to 5dBi antenna optimized for the frequency of your area (typically 915MHz in Argentina) will make a noticeable difference in the coverage radius.
    
 - ***User Interface and Alerts:***
-   - `Buzzer Pasivo`: A buzzer can be configured to receive audible alerts when a message arrives or a new node joins the network.
-   - `Botones Adicionales`: Although it has two physical buttons, other GPIO pins can be mapped for navigation functions on the 1.14" TFT screen.
+   - `Passive Buzzer`: A buzzer can be configured to receive audible alerts when a message arrives or a new node joins the network.
+   - `Additional Buttons`: Although it has two physical buttons, other GPIO pins can be mapped for navigation functions on the 1.14" TFT screen.
    
 <br>
 <br>
