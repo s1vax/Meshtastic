@@ -210,7 +210,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
         - `Protection Circuit (PCM/BMS) for LiPo Batteries` (In some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
 Function: Cuts off power if the voltage drops below 2.4V (preventing the battery from permanently failing) or if there is a short circuit.
 
-        - `Termistor NTC` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
+        - `NTC Thermistor` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
         
         - `JST-PH Connectors` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
    
@@ -224,7 +224,7 @@ The factory-installed "spring" antenna is limited. To improve range:
    - `Pigtail IPEX (U.FL) a SMA`: It allows the use of higher gain external antennas.
    - `Antenas Dipolo o Fibra de Vidrio`: If the node will be fixed (Router), a 3dBi to 5dBi antenna optimized for the frequency of your area (typically 915MHz in Argentina) will make a noticeable difference in the coverage radius.
    
-- ***Interfaz de Usuario y Alertas:***
+- ***User Interface and Alerts:***
    - `Buzzer Pasivo`: A buzzer can be configured to receive audible alerts when a message arrives or a new node joins the network.
    - `Botones Adicionales`: Although it has two physical buttons, other GPIO pins can be mapped for navigation functions on the 1.14" TFT screen.
    
