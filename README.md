@@ -168,6 +168,8 @@ In the following sections, we will delve deeper into the configuration and optim
    <img width="615" height="225" alt="image" src="https://github.com/user-attachments/assets/07d156f6-f08c-4a0a-86a7-2cd91423eb0c" />
 </p>
 <br>
+<br>
+<br>
    
 - 💽 Board settings ***(important for proper operation)***
    - Ahora en esta parte veremos como hacer funcionar el nodo. Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
@@ -322,6 +324,7 @@ The factory-installed "spring" antenna is limited. To improve range:
 
 <br>
 <br>
+<br>
    
 - 💽 Board settings ***(important for proper operation)***
    - This section is the same as the one above, for the Heltec t114 v2 mesh device. Therefore, if you are in Argentina, you should follow the same settings mentioned previously.
@@ -343,8 +346,8 @@ The factory-installed "spring" antenna is limited. To improve range:
 - ***XIAO Expansion Board:***
 It's a key component for adding peripherals without soldering.:
     - `OLED Screen (0.96")`: An OLED screen can be added to the Xiao nrf52840 board without the need for a Xiao Expansion Board, but it should be noted that it already comes with an integrated socket to connect an SSD1306 screen, essential for viewing messages and node status.
-    - `RTC (Real Time Clock)`: Incluye un chip PCF8563 que permite mantener la hora exacta incluso si el dispositivo se reinicia o pierde conexión.
-    - `Slot MicroSD`: Vital si planeas hacer Data Logging (registrar posiciones GPS o lecturas de sensores durante un trayecto o vuelo).
+    - `RTC (Real Time Clock)`: It includes a PCF8563 chip that allows it to maintain the exact time even if the device restarts or loses connection.
+    - `MicroSD Slot`: Essential if you plan to do Data Logging (recording GPS positions or sensor readings during a journey or flight).
     
 - ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Seed Studio Xiao nrf52840 Kit` requiere un módulo Grove GPS (`Grove - GPS Air530Z`, de alta precisión y bajo consumo, ideal para que el nodo transmita su ubicación) o soldar a pines UART (TX/RX), por ejemplo al `L76K GNSS`.
 - ***Sistemas de Energia:***
