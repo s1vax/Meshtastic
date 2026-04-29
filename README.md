@@ -365,10 +365,10 @@ Recommended: CN3065. It is the standard for "mini" solar systems because it hand
        <img width="1280" height="720" alt="Conexion de baterias en parte trasera" src="https://github.com/user-attachments/assets/f408ce6e-bf67-434a-84ff-1ad43b9bb5af" />
        </p>
        
-    - `Baterías LiPo/Li-ion`: Para las baterías, el requerimiento principal es que sean 1S (una sola celda) con un voltaje nominal de 3.7V. Con capacidad: Desde 400mAh (vuelo/compacto) hasta 5000mAh (fijo/estación).
+    - `LiPo/Li-ion Batteries`: For batteries, the main requirement is that they be 1S (single cell) with a nominal voltage of 3.7V. Capacity: From 400mAh (flight/compact) to 5000mAh (fixed/station).
 
-        - `Circuito de Protección (PCM/BMS) para baterias LiPo` (En algunos casos): Muchas LiPo vienen "desnudas". Se necesita que tengan una pequeña plaquita en la punta con los chips DW01 y 8205A.
-             Función: Corta la energía si el voltaje baja de 2.4V (evita que la batería muera permanentemente) o si hay un cortocircuito.
+        - `Circuito de Protección (PCM/BMS) para baterias LiPo` (in some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
+Function: Cuts off power if the voltage drops below 2.4V (preventing the battery from permanently failing) or if there is a short circuit.
 
         - `Termistor NTC` (Opcional pero recomendado): Si el nodo va a estar al sol (dentro de una caja o estructura), el calor puede ser peligroso. Algunos cargadores tienen un pin "TEMP" que, conectado a un termistor pegado a la batería, detiene la carga si la temperatura supera los 45°C - 50°C.
 
