@@ -367,12 +367,12 @@ Recommended: CN3065. It is the standard for "mini" solar systems because it hand
        
     - `LiPo/Li-ion Batteries`: For batteries, the main requirement is that they be 1S (single cell) with a nominal voltage of 3.7V. Capacity: From 400mAh (flight/compact) to 5000mAh (fixed/station).
 
-        - `Circuito de Protección (PCM/BMS) para baterias LiPo` (in some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
+        - `Protection Circuit (PCM/BMS) for LiPo batteries` (in some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
 Function: Cuts off power if the voltage drops below 2.4V (preventing the battery from permanently failing) or if there is a short circuit.
 
-        - `Termistor NTC` (Opcional pero recomendado): Si el nodo va a estar al sol (dentro de una caja o estructura), el calor puede ser peligroso. Algunos cargadores tienen un pin "TEMP" que, conectado a un termistor pegado a la batería, detiene la carga si la temperatura supera los 45°C - 50°C.
-
-        - `Conectores JST-PH` (2.0mm) o `SH` (1.25mm): Asegurarse de que la polaridad sea la correcta. Dato vital: El estándar de cables rojo/negro en baterías chinas a veces viene invertido respecto a lo que esperan las placas Heltec o Seeed. Medir con multímetro antes de enchufar.
+         `NTC Thermistor` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
+        
+        - `JST-PH Connectors` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
     
 - ***Sensores Grove (Plug & Play):***
 El ecosistema de Seeed utiliza el estándar Grove. Al tener conectores dedicados en la base, se pueden agregar:
