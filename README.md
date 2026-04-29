@@ -354,8 +354,8 @@ It's a key component for adding peripherals without soldering.:
 - ***GPS Module:*** Meshtastic devices allow you to use your connected devices (cell phone or PC) as GPS. However, it's also possible to apply their own geolocation system so they don't depend on another device when being made "portable". Therefore, a `GPS module` can be added to identify their coordinates and other data. In the case of the `Seed Studio Xiao nrf52840 Kit`, it requires a Grove GPS module (`Grove - GPS Air530Z`, high precision and low power consumption, ideal for the node to transmit its location) or soldering to UART pins (TX/RX), for example to the `L76K GNSS`.
 
 - ***Energy Systems:***
-    - `Solar panels + batteries`: Para estos microcontroladores, lo ideal es un panel de 5V a 6V. Entre 1W y 2W es suficiente para mantener un nodo nRF52840 encendido 24/7. Monocristalino (rígido) o Pet/ETFE (flexible para aerodinámica o bajo peso). Para esto requiere de un `Controlador de Carga Solar (IC)`, ya que no se puede conectar el panel directo a la batería, para esto se necesita un chip que gestione el protocolo de carga.
-Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctuaciones de corriente del sol mucho mejor que un TP4056 común.
+    - `Solar panels + batteries`: For these microcontrollers, a 5V to 6V panel is ideal. Between 1W and 2W is sufficient to keep an nRF52840 node powered on 24/7. The panel can be monocrystalline (rigid) or PET/ETFE (flexible for aerodynamics or low weight). This requires a `Solar Charge Controller (IC)`, as the panel cannot be connected directly to the battery; a chip is needed to manage the charging protocol.
+Recommended: CN3065. It is the standard for "mini" solar systems because it handles solar current fluctuations much better than a common TP4056.
 
        Tambien se necesitaria un `Diodo Schottky` (como un 1N5817). Este se coloca entre el panel y el cargador. Evita el "flujo inverso", es decir, que la batería intente "alimentar" al panel solar durante la noche, lo cual la agotaría.
 
