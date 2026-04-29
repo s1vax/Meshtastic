@@ -275,21 +275,22 @@ The factory-installed "spring" antenna is limited. To improve range:
            </p>
         --> Once you've selected the firmware version, click `Flash`, and a pop-up window will appear detailing all the features of that version. Click `Continue`.
            <p align="center">
-            <img width="1677" height="753" alt="image" src="https://github.com/user-attachments/assets/fbbf21ac-f5b2-4396-a7e5-1df12ac60add" />
+           <img width="1677" height="753" alt="image" src="https://github.com/user-attachments/assets/fbbf21ac-f5b2-4396-a7e5-1df12ac60add" />
            </p>
         --> Next, we'll see another pop-up window. What we need to do is put the board into DFU mode. To do this, click where it says `Enter DFU Mode`, and a list of USB ports with connected devices will open in your browser. You'll need to locate your mesh board (by noting which COM port on your computer it's connected to), click on it, and then click `Connect`.
-        <p align="center">
-        <img width="1171" height="600" alt="image" src="https://github.com/user-attachments/assets/745bc626-58d5-471b-8b8d-a894ed58c822" />
+           <p align="center">
+           <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/745bc626-58d5-471b-8b8d-a894ed58c822" />
            </p>
 
         <p align="center">
-         <img width="1598" height="837" alt="image" src="https://github.com/user-attachments/assets/07a5120c-c9c3-4f54-8823-1dcb32fe30dd" />
+       <img width="1598" height="837" alt="image" src="https://github.com/user-attachments/assets/07a5120c-c9c3-4f54-8823-1dcb32fe30dd" />
            </p>
            
         --> Once the correct COM port has been selected, click on `Download UF2`:
           <p align="center">
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
+           
         --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart. And that's it! ✅ Your Meshtastic board is now flashed and ready to use and configure.
 
    - ***Optional step [Once the board has been flashed, it can be disconnected from the PC]***    
@@ -350,7 +351,7 @@ It's a key component for adding peripherals without soldering.:
     - `RTC (Real Time Clock)`: It includes a PCF8563 chip that allows it to maintain the exact time even if the device restarts or loses connection.
     - `MicroSD Slot`: Essential if you plan to do Data Logging (recording GPS positions or sensor readings during a journey or flight).
     
-- ***GPS Module:*** En los dispositivos Meshtastic podemos utilizar como GPS a nuestros dispositivos conectados (celular o PC). Sin embargo, existe la posibilidad de aplcarles su propio sistema de geolocalizacion para que no dependan de otro dispositivo al momento de hacerlos "portables". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Seed Studio Xiao nrf52840 Kit` requiere un módulo Grove GPS (`Grove - GPS Air530Z`, de alta precisión y bajo consumo, ideal para que el nodo transmita su ubicación) o soldar a pines UART (TX/RX), por ejemplo al `L76K GNSS`.
+- ***GPS Module:*** Meshtastic devices allow you to use your connected devices (cell phone or PC) as GPS. However, it's also possible to apply their own geolocation system so they don't depend on another device when being made "portable". Es por ello que se les puede agregar un `GPS Module` para identificar sus coordenadas y otros datos. En el caso de la `Seed Studio Xiao nrf52840 Kit` requiere un módulo Grove GPS (`Grove - GPS Air530Z`, de alta precisión y bajo consumo, ideal para que el nodo transmita su ubicación) o soldar a pines UART (TX/RX), por ejemplo al `L76K GNSS`.
 - ***Sistemas de Energia:***
     - `Paneles solares + bateria`: Para estos microcontroladores, lo ideal es un panel de 5V a 6V. Entre 1W y 2W es suficiente para mantener un nodo nRF52840 encendido 24/7. Monocristalino (rígido) o Pet/ETFE (flexible para aerodinámica o bajo peso). Para esto requiere de un `Controlador de Carga Solar (IC)`, ya que no se puede conectar el panel directo a la batería, para esto se necesita un chip que gestione el protocolo de carga.
 Recomendado: CN3065. Es el estándar para solar "mini" porque soporta las fluctuaciones de corriente del sol mucho mejor que un TP4056 común.
