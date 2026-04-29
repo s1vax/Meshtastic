@@ -474,7 +474,7 @@ Considerado el "estándar de oro" para nodos serios y estaciones solares.
 ## ⚖️ Disclaimer
 I am not responsible for any issues with the distributors of the links shared in this repository. Open and use them at your own risk. 
 
-Solo comparto los links que yo he utilizado bajo mi propia responsabilidad y supervision durante la realizacion de proyectos con Meshtastic.
+I only share the links that I have used under my own responsibility and supervision during the execution of projects with Meshtastic.
 
 <br>
 
