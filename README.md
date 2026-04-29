@@ -357,9 +357,9 @@ It's a key component for adding peripherals without soldering.:
     - `Solar panels + batteries`: For these microcontrollers, a 5V to 6V panel is ideal. Between 1W and 2W is sufficient to keep an nRF52840 node powered on 24/7. The panel can be monocrystalline (rigid) or PET/ETFE (flexible for aerodynamics or low weight). This requires a `Solar Charge Controller (IC)`, as the panel cannot be connected directly to the battery; a chip is needed to manage the charging protocol.
 Recommended: CN3065. It is the standard for "mini" solar systems because it handles solar current fluctuations much better than a common TP4056.
 
-       Tambien se necesitaria un `Diodo Schottky` (como un 1N5817). Este se coloca entre el panel y el cargador. Evita el "flujo inverso", es decir, que la batería intente "alimentar" al panel solar durante la noche, lo cual la agotaría.
+       A `Schottky diode` (such as a 1N5817) would also be needed. This is placed between the panel and the charger. It prevents "reverse current," meaning the battery would try to "charge" the solar panel at night, which would drain it.
 
-       Y ademas, `capacitores electrolíticos`. Se coloca uno (de 100µF o 470µF) en la entrada del cargador solar ayuda a estabilizar el voltaje cuando pasan nubes rápidas.
+       And also, `electrolytic capacitors`. Placing one (100µF or 470µF) at the solar charger's input helps stabilize the voltage when fast-moving clouds pass by.
 
         <p align="center">
        <img width="1280" height="720" alt="Conexion de baterias en parte trasera" src="https://github.com/user-attachments/assets/f408ce6e-bf67-434a-84ff-1ad43b9bb5af" />
