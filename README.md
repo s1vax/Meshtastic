@@ -466,10 +466,10 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 
 - `Heltec WiFi LoRa 32 (V3)`
-   - Procesador: ESP32-S3.
-   - Pantalla: OLED de 0.96 pulgadas integrada.
-   - Características: Incluye carga de batería LiPo y Wi-Fi/Bluetooth.
-   - Punto débil: Consumo de energía moderado (no es el mejor para baterías pequeñas).
+   - Processor: ESP32-S3.
+   - Screen: OLED de 0.96 pulgadas integrada.
+   - Characteristics: Incluye carga de batería LiPo y Wi-Fi/Bluetooth.
+   - Weak point: Consumo de energía moderado (no es el mejor para baterías pequeñas).
 
 <br>
 
