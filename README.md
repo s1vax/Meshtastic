@@ -385,9 +385,9 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
     - `Spring antennas`: To keep the size as small as possible in wearable devices.
     - `Gsm Gprs Modem Antenna 2dbi U.fl Sma Cable 15cm`
     
-- ***Interfaz de Usuario y Alertas:***
-   - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
-   - `Botones Adicionales`: Se puede mapear otros pines GPIO para funciones de navegación en la pantalla.
+- ***User Interface and Alerts:***
+   - `Passive Buzzer`: A buzzer can be configured to receive audible alerts when a message arrives or a new node joins the network.
+   - `Additional Buttons`: Other GPIO pins can be mapped for on-screen navigation functions.
 
 <br>
 <br>
