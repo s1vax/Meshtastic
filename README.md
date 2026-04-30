@@ -381,9 +381,10 @@ The Seeed ecosystem uses the Grove standard. With dedicated connectors at the ba
     
 - ***RF Upgrades (Antennas and Connectors):***
 Since it does not have a built-in long-range antenna, the use of a U.FL to SMA pigtail is mandatory for connection:
-    - `Antenas Cloverleaf`: If the node is going to be rotating or constantly changing orientation, these antennas minimize signal loss due to polarization.
-    - `Antenas de muelle (Spring)`: Para mantener el tamaño lo más pequeño posible en dispositivos "wearables" (portables).
-    - `Antena Modem Gsm Gprs 2dbi U.fl Sma Cable 15cm`
+    - `Cloverleaf antennas`: If the node is going to be rotating or constantly changing orientation, these antennas minimize signal loss due to polarization.
+    - `Spring antennas`: To keep the size as small as possible in wearable devices.
+    - `Gsm Gprs Modem Antenna 2dbi U.fl Sma Cable 15cm`
+    
 - ***Interfaz de Usuario y Alertas:***
    - `Buzzer Pasivo`: Se puede configurar un buzzer para recibir alertas sonoras cuando llegue un mensaje o un nodo nuevo se una a la red.
    - `Botones Adicionales`: Se puede mapear otros pines GPIO para funciones de navegación en la pantalla.
