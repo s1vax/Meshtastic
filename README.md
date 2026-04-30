@@ -474,12 +474,12 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 
 - `Lilygo T-Beam (V1.1 / V1.2)`
-El "clásico" todo-en-uno que definió los inicios de la red.
-   - Procesador: ESP32.
-   - GPS: Módulo Neo-6M o Neo-M8N integrado.
-   - Alimentación: Incluye un zócalo para batería 18650 en la parte posterior.
-   - Características: Muy robusto y fácil de llevar en la mochila sin cajas externas complejas.
-
+The "classic" all-in-one that defined the beginnings of the network.
+   - Processor: ESP32.
+   - GPS: Integrated Neo-6M or Neo-M8N module.
+   - Power: It includes an 18650 battery socket on the back.
+   - Characteristics: Very robust and easy to carry in a backpack without complex external boxes.
+   
 <br>
 
 - `LILYGO® T-Lora Pager`
