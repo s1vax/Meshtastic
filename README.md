@@ -396,7 +396,7 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 <br>
 
-### 🧊 Carcasas 3D (para los modelos de arriba)
+### 🧊 3D cases (for the models above)
 <br>
 <br>
 <br>
