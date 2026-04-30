@@ -370,7 +370,7 @@ Recommended: CN3065. It is the standard for "mini" solar systems because it hand
         - `Protection Circuit (PCM/BMS) for LiPo batteries` (in some cases): Many LiPo batteries come "bare." They need a small circuit board at the tip with the DW01 and 8205A chips.
 Function: Cuts off power if the voltage drops below 2.4V (preventing the battery from permanently failing) or if there is a short circuit.
 
-         `NTC Thermistor` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
+        - `NTC Thermistor` (Optional but recommended): If the node will be in the sun (inside a box or structure), the heat can be dangerous. Some chargers have a "TEMP" pin that, when connected to a thermistor attached to the battery, stops charging if the temperature exceeds 45°C - 50°C.
         
         - `JST-PH Connectors` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
     
@@ -411,7 +411,7 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 
 <br>
 
-👉 ***You can see more Mestattastic-compatible devices (like the ones below) at:*** https://meshtastic.org/docs/hardware/devices/
+👉 ***You can see more Meshtastic-compatible devices (like the ones below) at:*** https://meshtastic.org/docs/hardware/devices/
 
 <br>
 
