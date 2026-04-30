@@ -225,6 +225,13 @@ Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el d
 <br>
 
  🔸 ***Settings: Device Configuration: Device***
+   - En esta seccion debemos tener lo siguiente. En `Options`, buscamos que `Device Role` este en: CLIENT
+   - En `Rebroadcast Mode` debe estar en: ALL
+   - Y en `Node info Broadcast Interval` debe estar en: 3 hours (3 horas)
+   - Pasando de seccion, nos vamos a `Hardware`. Aca podemos configurar a gusto. Personalmente tengo activado/on `Tiple Click Ad Hoc Ping` y `Led Heartbeat`
+   - Luego en `Time Zone` ponemos: GMT3
+
+ 🔸 ***Settings: Device Configuration: Device***
 
 <br>
 
