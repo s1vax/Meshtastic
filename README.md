@@ -519,9 +519,9 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 
 - `Lilygo T-Echo`
-   - Procesador: nRF52840.
-   - Pantalla: E-Ink (Tinta electrónica) de 1.54 pulgadas, visible bajo el sol.
-   - Características: Incluye caja protectora, GPS y batería interna de fábrica.
+   - Processor: nRF52840.
+   - Screen: 1.54-inch E-Ink (Electronic Ink), visible in sunlight.
+   - Characteristics: Includes protective case, GPS and factory internal battery.
 
 <br>
 
