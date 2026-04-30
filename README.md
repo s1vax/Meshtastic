@@ -172,16 +172,59 @@ In the following sections, we will delve deeper into the configuration and optim
 <br>
    
 - 💽 Board settings ***(important for proper operation)***
-   - Ahora en esta parte veremos como hacer funcionar el nodo. Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`. Aqui vamos a
-   
-   - ***Canales de meshtastic actuales de Argentina*** (el siguiente link lo pueden abrir desde su celular o en PC, pegar el link en el sitio web de Meshtastic (mas abajo en la imagen se explica como), y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic):
+
+Ahora en esta parte veremos como hacer funcionar el nodo.
+
+<br>
+
+ 🔸 ***Settings: Radio Configuration: LoRa***
+   - Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`.
+   - Dentro de `LoRa`, iremos al apartado de `Options`, y en `Region`, colocaremos: Australia / Brazil / New Zealand
+   - Luego en `Presets` seleccionaremos: LONG_FAST
+   - Continuamos con el apartado de `Advanced`. Aqui pondremos en activado/on a lo siguiente:
+     - `Ok to MQTT`
+     - `Transmit Enabled`
+   - En el mismo apartado (POR AHORA, DEBIDO AL ACTUAL DESARROLLO DE LA COMUNIDAD DE SAN LUIS EN MESHTASTIC) pondremos lo siguiente:
+     - `Number of Hops` = 7
+     - `Frecuency Slot` = 20
+   - Aun en el apartado, le daremos activado/on a `RX Boosted Gain`
+   - Y por ultimo, les deberia salir lo siguiente en el final de este apartado:
+     - `Frequency Override` = 919.875
+     - `Transmit Power` = 27
+
+<br>
+
+ 🔸 ***Settings: Radio Configuration: Channels***
+   - En esta seccion vamos agregar los canales de argentina (medios por donde se habla con otros nodos/dispositivos mesh)
+   - ***Canales de meshtastic actuales de Argentina*** 
+El siguiente link lo pueden abrir, tocandolo directamente desde su celular, o en PC, donde deben de pegar el link en el sitio web de Meshtastic https://client.meshtastic.org (mas abajo en la imagen se explica como), y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic:
+
 https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
      
 <p align="center">
 <img width="859" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
 </p>
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Luego de ello, en PC, los canales se deberian de ver asi:
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Mientras que en celular, se deberian de ver asi:
+
+Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el de mensajeria en celular)
+
+<br>
+
+ 🔸 ***Settings: Device Configuration: User***
+   - Aqui pueden configurar el nombre de su dispositivo y ver su `NODE ID`, como tambien otras 2 opciones (no recomendadas tocar)
+
+<br>
+
+ 🔸 ***Settings: Device Configuration: Device***
 
 <br>
 
