@@ -379,9 +379,9 @@ The Seeed ecosystem uses the Grove standard. With dedicated connectors at the ba
     - `Barometer/Altimeter (BMP280 / MS5607)`: Crucial for accurately measuring altitude if the node is going to be in vertical motion or in applications where atmospheric pressure is a key data point.
     - `Accelerometer/Gyroscope (ICM20689)`: If you use the "Sense" version of the XIAO, it already has one built-in, but an external one with a higher range (such as an ADXL345) is useful for measuring strong impacts or vibrations.
     
-- ***Mejoras de RF (Antenas y Conectores):***
-Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SMA es obligatorio para conectar:
-    - `Antenas Cloverleaf`: Si el nodo va a estar rotando o cambiando de orientación constantemente, estas antenas minimizan la pérdida de señal por polarización.
+- ***RF Upgrades (Antennas and Connectors):***
+Since it does not have a built-in long-range antenna, the use of a U.FL to SMA pigtail is mandatory for connection:
+    - `Antenas Cloverleaf`: If the node is going to be rotating or constantly changing orientation, these antennas minimize signal loss due to polarization.
     - `Antenas de muelle (Spring)`: Para mantener el tamaño lo más pequeño posible en dispositivos "wearables" (portables).
     - `Antena Modem Gsm Gprs 2dbi U.fl Sma Cable 15cm`
 - ***Interfaz de Usuario y Alertas:***
