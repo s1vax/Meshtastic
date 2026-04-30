@@ -526,9 +526,9 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 
 - `Station G1 (Nano G1 Explorer)`
-   - Procesador: ESP32.
-   - Carcasa: Aleación de aluminio robusta.
-   - Características: Conector SMA para antena externa de alta ganancia y puerto USB-C frontal.
+   - Processor: ESP32.
+   - Case: Robust aluminum alloy.
+   - Characteristics: SMA connector for external high-gain antenna and front USB-C port.
 
 <br>
 
