@@ -511,10 +511,10 @@ The "classic" all-in-one that defined the beginnings of the network.
 <br>
 
 - `RAKwireless WisBlock (RAK4631)`
-Considerado el "estándar de oro" para nodos serios y estaciones solares.
-   - Procesador: nRF52840 (Ultra bajo consumo).
-   - Modularidad: Diseño tipo "LEGO"; puedes añadir sensores de clima, GPS o pantallas mediante módulos.
-   - Características: Consume una fracción de la energía de los modelos ESP32.
+Considered the "gold standard" for serious nodes and solar stations.
+- Processor: nRF52840 (Ultra low consumption).
+   - Modularity: "LEGO" type design; you can add weather sensors, GPS or screens using modules.
+   - Characteristics: It consumes a fraction of the energy of the ESP32 models.
 
 <br>
 
