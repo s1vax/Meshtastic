@@ -374,10 +374,11 @@ Function: Cuts off power if the voltage drops below 2.4V (preventing the battery
         
         - `JST-PH Connectors` (2.0mm) o `SH` (1.25mm): Ensure the polarity is correct. Important note: The red/black wire standard on Chinese batteries is sometimes reversed compared to what Heltec or Seeed boards require. Measure with a multimeter before plugging in.
     
-- ***Sensores Grove (Plug & Play):***
-El ecosistema de Seeed utiliza el estándar Grove. Al tener conectores dedicados en la base, se pueden agregar:
-    - `Barómetro/Altímetro (BMP280 / MS5607)`: Crucial para medir altitud con precisión si el nodo va a estar en movimiento vertical o en aplicaciones donde la presión atmosférica es un dato clave.
-    - `Acelerómetro/Giroscopio (ICM20689)`: Si se usa la versión "Sense" del XIAO, ya viene uno integrado, pero uno externo de mayor rango (como un ADXL345) es útil para medir impactos o vibraciones fuertes.
+- ***Grove Sensors (Plug & Play):***
+The Seeed ecosystem uses the Grove standard. With dedicated connectors at the base, the following can be added:
+    - `Barometer/Altimeter (BMP280 / MS5607)`: Crucial for accurately measuring altitude if the node is going to be in vertical motion or in applications where atmospheric pressure is a key data point.
+    - `Accelerometer/Gyroscope (ICM20689)`: If you use the "Sense" version of the XIAO, it already has one built-in, but an external one with a higher range (such as an ADXL345) is useful for measuring strong impacts or vibrations.
+    
 - ***Mejoras de RF (Antenas y Conectores):***
 Al no tener una antena integrada de gran alcance, el uso de un pigtail U.FL a SMA es obligatorio para conectar:
     - `Antenas Cloverleaf`: Si el nodo va a estar rotando o cambiando de orientación constantemente, estas antenas minimizan la pérdida de señal por polarización.
