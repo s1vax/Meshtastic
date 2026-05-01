@@ -277,7 +277,8 @@ Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el d
  <br>
 
   🔸 ***Settings: Module Configuration: MQTT***
-    - Aqui empezamos con la sub-seccion de `MQTT Config` donde debemos de tener:
+  
+   - Aqui empezamos con la sub-seccion de `MQTT Config` donde debemos de tener:
        - `MQTT enabled` en activado/on
        - `Address`, `Username` y `Password`. Estos conforman el ID del servidor de mapas al que nos queremos unir, es decir, donde queremos que nuestro nodo aparezca. Solo podemos hacer aparecer a nuestro nodo en un solo mapa de meshtastic, de los muchos que existen creados por la comunidad. (colocar foto)
        - `Encryption enabled` en activado/on (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
