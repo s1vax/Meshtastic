@@ -279,16 +279,20 @@ Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el d
   🔸 ***Settings: Module Configuration: MQTT***
     - Aqui empezamos con la sub-seccion de `MQTT Config` donde debemos de tener:
        - `MQTT enabled` en activado/on
-       - `Address`, `Username` y `Password`. Estos conforman el ID del servidor de mapas al que nos queremos unir, es decir, donde queremos que nuestro nodo aparezca. Solo podemos hacer aparecer a nuestro nodo en un solo mapa de meshtastic, de los muchos que existen creados por la comunidad.
+       - `Address`, `Username` y `Password`. Estos conforman el ID del servidor de mapas al que nos queremos unir, es decir, donde queremos que nuestro nodo aparezca. Solo podemos hacer aparecer a nuestro nodo en un solo mapa de meshtastic, de los muchos que existen creados por la comunidad. (colocar foto)
        - `Encryption enabled` en activado/on (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
        - `JSON output enabled` en desactivado/off (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
        - `TLS enabled` saldra activado por defecto dada nuestra configuracion
        - `Root topic` en: msh/ANZ
-       - Y `Proxy to client enabled` en activado/on
+       - Y `Proxy to client enabled` en activado/o
 
-   <br>
-       - Luego tenemos la siguiente sub-seccion de `Map reporting`, donde buscamos que:
-          - `Map reporting` este activado/on
+<br>
+       
+   - Luego tenemos la siguiente sub-seccion de `Map reporting`, donde buscamos que:
+       - `Map reporting` este activado/on
+       - Siguiente a ello, ponemos `I agree` en activado/on
+       - Luego, en la barra de distancia dada por millas, la dejamos en: 1.8 mi
+       - Y finalmente, dejamos a `Map reporting interval (seconds)` en: 1 hour
        
 
 
