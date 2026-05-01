@@ -175,23 +175,27 @@ In the following sections, we will delve deeper into the configuration and optim
 
 Ahora en esta parte veremos como hacer funcionar el nodo.
 
-<br>
-
  🔸 ***Settings: Radio Configuration: LoRa***
    - Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`.
-   - Dentro de `LoRa`, iremos al apartado de `Options`, y en `Region`, colocaremos: Australia / Brazil / New Zealand
-   - Luego en `Presets` seleccionaremos: LONG_FAST
-   - Continuamos con el apartado de `Advanced`. Aqui pondremos en activado/on a lo siguiente:
-     - `Ok to MQTT`
-     - `Transmit Enabled`
-   - En el mismo apartado (POR AHORA, DEBIDO AL ACTUAL DESARROLLO DE LA COMUNIDAD DE SAN LUIS EN MESHTASTIC) pondremos lo siguiente:
-     - `Number of Hops` = 7
-     - `Frecuency Slot` = 20
-   - Aun en el apartado, le daremos activado/on a `RX Boosted Gain`
-   - Y por ultimo, les deberia salir lo siguiente en el final de este apartado:
-     - `Frequency Override` = 919.875
-     - `Transmit Power` = 27
+   - Dentro de `LoRa`, iremos a la sub-seccion de `Options` y buscaremos que:
+      - `Region` este en: Australia / Brazil / New Zealand
+      - `Use Presets` este en activado/on
+      - `Presets` se encuentre en: LONG_FAST
 
+   <br>
+   
+   - Luego, continuamos con la siguiente sub-seccion de `Advanced`. Aqui pondremos en activado/on a lo siguiente:
+       - `Ok to MQTT`
+       - `Transmit Enabled`
+   - En el mismo apartado (POR AHORA, DEBIDO AL ACTUAL DESARROLLO DE LA COMUNIDAD DE SAN LUIS EN MESHTASTIC) pondremos lo siguiente:
+       - `Number of Hops` = 7
+       - `Frecuency Slot` = 20
+   - Aun en el apartado, le daremos activado/on a `RX Boosted Gain`
+   - Y por ultimo, les deberia salir lo siguiente, al final de esta sub-seccion:
+       - `Frequency Override` = 919.875
+       - `Transmit Power` = 27
+
+<br>
 <br>
 
  🔸 ***Settings: Radio Configuration: Channels***
@@ -218,20 +222,64 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el de mensajeria en celular)
 
 <br>
+<br>
 
  🔸 ***Settings: Device Configuration: User***
    - Aqui pueden configurar el nombre de su dispositivo y ver su `NODE ID`, como tambien otras 2 opciones (no recomendadas tocar)
 
 <br>
+<br>
 
  🔸 ***Settings: Device Configuration: Device***
-   - En esta seccion debemos tener lo siguiente. En `Options`, buscamos que `Device Role` este en: CLIENT
-   - En `Rebroadcast Mode` debe estar en: ALL
-   - Y en `Node info Broadcast Interval` debe estar en: 3 hours (3 horas)
-   - Pasando de seccion, nos vamos a `Hardware`. Aca podemos configurar a gusto. Personalmente tengo activado/on `Tiple Click Ad Hoc Ping` y `Led Heartbeat`
-   - Luego en `Time Zone` ponemos: GMT3
+   - En esta seccion debemos tener lo siguiente. En la sub-seccion de `Options`, buscamos que: 
+      - `Device Role` este en: CLIENT
+      - `Rebroadcast Mode` debe estar en: ALL
+      - Y `Node info Broadcast Interval` debe estar en: 3 hours (3 horas)
 
- 🔸 ***Settings: Device Configuration: Device***
+   <br>
+   
+   - Pasando de sub-seccion, nos vamos a `Hardware`. Aca podemos configurar a gusto. 
+      - Personalmente tengo activado/on `Tiple Click Ad Hoc Ping` y `Led Heartbeat`
+      - Luego en `Time Zone` ponemos: GMT3
+
+<br>
+<br>
+
+ 🔸 ***Settings: Device Configuration: Position***
+   - Pasamos a la seccion de `Position`. 
+   - En la sub-seccion de `Position Packet` buscamos que: 
+      - `Broadcast Interval` este en: 15 minutes
+      - `Smart Position` este en activado/on
+      - `Smart Interval` este en: 30 seconds
+      - Y `Smart Distance` este en: 100
+
+   <br>
+   
+   - Pasando de sub-seccion, tenemos `Device GPS` donde buscamos que:
+      - `Fixed Position` este desactivado/off
+      - `GPS Mode (Physical Hardware)` este en: ENABLED
+      - `GPS Polling Interval` este en: 8 seconds
+   
+<br>
+
+   - Continuando, seguimos con la sub-seccion `Position Flags` donde deberemos de tener:
+      - `Position Flags` en: 811
+
+<br>
+
+   - Y finalizando, en la ultima sub-seccion de `Advanced Device GPS`, debemos ver que todos los pines esten en 0.
+
+<br>
+<br>
+   
+ 🔹 ***Vamos omitir algunas secciones ya que el objetivo de este repositorio no es profundizar, sino permitir el uso y acceso de dispositivos meshtastic, es decir, probar una comunicacion inicial y su funcionamiento***
+
+ <br>
+ <br>
+
+  🔸 ***Settings: Module Configuration: MQTT***
+    - 
+
 
 <br>
 
