@@ -173,10 +173,9 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - 💽 Board settings ***(important for proper operation)***
 
-Ahora en esta parte veremos como hacer funcionar el nodo.
+Ahora en esta parte veremos como hacer funcionar el nodo. Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y para empezar con esto entraremos a la opcion de `LoRa`.
 
  🔸 ***Settings: Radio Configuration: LoRa***
-   - Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y entraremos a la opcion de `LoRa`.
    - Dentro de `LoRa`, iremos a la sub-seccion de `Options` y buscaremos que:
       - `Region` este en: Australia / Brazil / New Zealand
       - `Use Presets` este en activado/on
@@ -278,7 +277,19 @@ Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el d
  <br>
 
   🔸 ***Settings: Module Configuration: MQTT***
-    - 
+    - Aqui empezamos con la sub-seccion de `MQTT Config` donde debemos de tener:
+       - `MQTT enabled` en activado/on
+       - `Address`, `Username` y `Password`. Estos conforman el ID del servidor de mapas al que nos queremos unir, es decir, donde queremos que nuestro nodo aparezca. Solo podemos hacer aparecer a nuestro nodo en un solo mapa de meshtastic, de los muchos que existen creados por la comunidad.
+       - `Encryption enabled` en activado/on (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
+       - `JSON output enabled` en desactivado/off (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
+       - `TLS enabled` saldra activado por defecto dada nuestra configuracion
+       - `Root topic` en: msh/ANZ
+       - Y `Proxy to client enabled` en activado/on
+
+   <br>
+       - Luego tenemos la siguiente sub-seccion de `Map reporting`, donde buscamos que:
+          - `Map reporting` este activado/on
+       
 
 
 <br>
