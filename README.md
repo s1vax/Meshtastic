@@ -195,7 +195,7 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - 💽 Board settings ***(important for proper operation)***
 
-Now in this section we'll see how to get the node working. It's important to note that this is a basic configuration and not the final one; it's only intended to establish initial communication functionality for the nodes, as some settings may need to be changed depending on our need.
+Now in this section we'll see how to get the node working. It's important to note that this is a basic configuration, not the final one; its sole purpose is to establish initial communication between the nodes and verify their functionality. This configuration will vary depending on our needs and objectives regarding the Mestatastic node—that is, what we want to do with it.
 
 Once we're connected to the device using any Meshtastic app, we'll first go to the section of `Settings`, and to begin with, we will go to the option of `LoRa`.
 
