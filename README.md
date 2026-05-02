@@ -68,19 +68,19 @@ The system is based on two fundamental pillars:
 <br>
 
 ## 🎨 ¿What types of Meshtastic nodes exist?
-- Infrastructure Nodes (Fixed): They are designed to be located in strategic points, generally at height and with a constant source of energy (either from the electrical grid or with a solar panel system and large batteries).
-   - Router: It is the backbone of the network. Its primary purpose is to receive and retransmit messages to expand coverage. It is designed to be always on, does not enter deep sleep mode, and is visible in the users' node list.
-   - Repeater:It performs the same infrastructure function as the router (retransmitting packets), but it is "invisible." It does not transmit its own information (NodeInfo) to the network, which prevents saturating users' contact lists and saves bandwidth.
+- ***Infrastructure Nodes (Fixed)***: They are designed to be located in strategic points, generally at height and with a constant source of energy (either from the electrical grid or with a solar panel system and large batteries).
+   - `Router`: It is the backbone of the network. Its primary purpose is to receive and retransmit messages to expand coverage. It is designed to be always on, does not enter deep sleep mode, and is visible in the users' node list.
+   - `Repeater`:It performs the same infrastructure function as the router (retransmitting packets), but it is "invisible." It does not transmit its own information (NodeInfo) to the network, which prevents saturating users' contact lists and saves bandwidth.
    
-- Personal or Mobile Nodes: These are the nodes that users carry with them, usually connected to a cell phone via Bluetooth. Power management is critical here.
-   - Client: This is the default role when you flash a board. It's designed to be actively used by a single person. It routes messages from other nodes to help the network, but enters sleep mode to conserve battery power when not in use.
-   - ClientMute: It works the same as the Client, but it doesn't act as a repeater. It only sends and receives user messages. It's ideal when you need to maximize battery life or when you're in an area with many nodes and relaying all the traffic would quickly drain your power.
-   - Router & Client: It's a combination. It functions like a router (it doesn't sleep, it prioritizes traffic), but it also assumes there's a user actively connected to it sending messages. It requires a good power supply.
+- ***Personal or Mobile Nodes***: These are the nodes that users carry with them, usually connected to a cell phone via Bluetooth. Power management is critical here.
+   - `Client`: This is the default role when you flash a board. It's designed to be actively used by a single person. It routes messages from other nodes to help the network, but enters sleep mode to conserve battery power when not in use.
+   - `ClientMute`: It works the same as the Client, but it doesn't act as a repeater. It only sends and receives user messages. It's ideal when you need to maximize battery life or when you're in an area with many nodes and relaying all the traffic would quickly drain your power.
+   - `Router & Client`: It's a combination. It functions like a router (it doesn't sleep, it prioritizes traffic), but it also assumes there's a user actively connected to it sending messages. It requires a good power supply.
    
-- Specialized Nodes (Telemetry and Tracking)
-   - Tracker:
-   - Sensor:
-   - TAK:
+- ***Specialized Nodes (Telemetry and Tracking)***: They are designed for very specific tasks, generally "headless" (without a screen or user constantly interacting).
+   - `Tracker`: Optimized for geolocation. Its job is to wake up, obtain a GPS position, transmit it to the network with priority, and then go back to sleep. Useful for tracking vehicles, pets, or, for example, fast-moving objects such as rockets or weather balloons.
+   - `Sensor`: It is used for nodes that are connected to external hardware modules (temperature, humidity, pressure sensors, etc.). It wakes up, takes the telemetry reading, transmits it via LoRa, and returns to a very low-power mode.
+   - `TAK`: A very specific role for nodes that are used in conjunction with the ATAK (Android Team Awareness Kit) application, optimizing traffic and routing for the needs of that platform.
 
 <br>
 
