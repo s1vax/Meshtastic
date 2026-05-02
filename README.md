@@ -201,16 +201,16 @@ Now in this section we'll see how to get the node working. Once we're connected 
 
    <br>
    
-   - Next, we continue with the following subsection of `Advanced`. Here we will activate/on the following:
+   - Next, we continue with the following subsection of `Advanced`. Here we will activate the following:
        - `Ok to MQTT`
        - `Transmit Enabled`
    - In the same section (⚠️ for now, due to the current development of the san luis [Argentina] community in meshtastic) we will put the following settings: (but if you are from another city/province/country with a higher number of nodes and activity, it is recommended to place fewer hops)
-       - `Number of Hops` = 7
-       - `Frecuency Slot` = 20
+       - `Number of Hops`: 7
+       - `Frecuency Slot`: 20
    - Even within that section, we will activate `RX Boosted Gain`
-   - And finally, you should see the following at the end of this sub-section:
-       - `Frequency Override` = 919.875
-       - `Transmit Power` = 27
+   - And finally, you should see the following configuration at the end of this sub-section:
+       - `Frequency Override`: 919.875
+       - `Transmit Power`: 27
 
 <br>
 <br>
