@@ -214,6 +214,10 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Luego de ello, en PC, los canales se deberian de ver asi:
 
+<p align="center">
+<img width="1905" height="942" alt="image" src="https://github.com/user-attachments/assets/52f54a89-1c09-4a23-a894-3580ce11e61d" />
+</p>
+
 <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Mientras que en celular, se deberian de ver asi:
