@@ -187,7 +187,7 @@ Now in this section we'll see how to get the node working. Once we're connected 
    - Next, we continue with the following subsection of `Advanced`. Here we will activate/on the following:
        - `Ok to MQTT`
        - `Transmit Enabled`
-   - In the same section (⚠️ FOR NOW, DUE TO THE CURRENT DEVELOPMENT OF THE SAN LUIS, ARGENTINA COMMUNITY IN MESHTASTIC) we will put the following:
+   - In the same section (⚠️ FOR NOW, DUE TO THE CURRENT DEVELOPMENT OF THE SAN LUIS, ARGENTINA, COMMUNITY IN MESHTASTIC) we will put the following:
        - `Number of Hops` = 7
        - `Frecuency Slot` = 20
    - Even within that section, we will activate/on `RX Boosted Gain`
@@ -199,13 +199,13 @@ Now in this section we'll see how to get the node working. Once we're connected 
 <br>
 
  🔸 ***Settings: Radio Configuration: Channels***
-   - En esta seccion vamos agregar los canales de argentina (medios por donde se habla con otros nodos/dispositivos mesh)
-   - ***Canales de meshtastic actuales de Argentina*** 
-El siguiente link lo pueden abrir, tocandolo directamente desde su celular, o en PC, donde deben de pegar el link en el sitio web de Meshtastic https://client.meshtastic.org (mas abajo en la imagen se explica como), y hara que se agreguen automaticamente los canales de comunicacion mesh en la app o web de Meshtastic:
+   - In this section we will add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
+   - ***Current Meftastic channels in Argentina*** 
+You can open the following link by tapping it directly on your mobile phone, or on a PC, where you must paste the link into the Meshtastic website https://client.meshtastic.org (the image below explains how), and this will automatically add the mesh communication channels to the Meshtastic app or website:
 
 https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> If you don't know how to copy and use the link above on your PC on the Meshtastic website, you must click on the sections of the site in the numerical order shown in the following image:
      
 <p align="center">
 <img width="950" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
@@ -213,7 +213,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Luego de ello, en PC, los canales se deberian de ver asi:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> After that, on PC, the channels should look like this:
 
 <p align="center">
 <img width="950" height="600" alt="image" src="https://github.com/user-attachments/assets/52f54a89-1c09-4a23-a894-3580ce11e61d" />
@@ -221,7 +221,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Mientras que en celular, se deberian de ver asi:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> On mobile, they should look like this:
 
 <p align="center">
 <img width="300" height="600" alt="WhatsApp Image 2026-05-01 at 21 10 53" src="https://github.com/user-attachments/assets/2dc884c5-0c9e-4ffb-92c1-2b6d11d9b2f1" />
@@ -235,7 +235,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <br>
 
  🔸 ***Settings: Device Configuration: User***
-   - Aqui pueden configurar el nombre de su dispositivo y ver su `NODE ID`, como tambien otras 2 opciones (no recomendadas tocar)
+   - Here you can configure your device name and view your `NODE ID`, as well as 2 other options (not recommended).
 
 <br>
 <br>
