@@ -207,7 +207,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Si no saben como copiar y usar el link anterior en su PC en la pagina web de Meshtastic, deben clickear en los apartados del sitio en el orden numerico establecido, mostrados en la siguiente imagen:
      
 <p align="center">
-<img width="859" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
+<img width="950" height="550" alt="image" src="https://github.com/user-attachments/assets/b9ec420b-03cc-49b4-b522-d11317fd558d" />
 </p>
 
 <br>
@@ -215,14 +215,20 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Luego de ello, en PC, los canales se deberian de ver asi:
 
 <p align="center">
-<img width="1905" height="942" alt="image" src="https://github.com/user-attachments/assets/52f54a89-1c09-4a23-a894-3580ce11e61d" />
+<img width="950" height="600" alt="image" src="https://github.com/user-attachments/assets/52f54a89-1c09-4a23-a894-3580ce11e61d" />
 </p>
 
 <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> Mientras que en celular, se deberian de ver asi:
 
-Imagen de como se ven los canales (tanto en el apartado de ajustes, como en el de mensajeria en celular)
+<p align="center">
+<img width="300" height="600" alt="WhatsApp Image 2026-05-01 at 21 10 53" src="https://github.com/user-attachments/assets/2dc884c5-0c9e-4ffb-92c1-2b6d11d9b2f1" />
+</p>
+
+<p align="center">
+<img width="300" height="600" alt="WhatsApp Image 2026-05-01 at 21 10 32" src="https://github.com/user-attachments/assets/80559d45-c3be-4995-b35d-b94f832d6e91" />
+</p>
 
 <br>
 <br>
