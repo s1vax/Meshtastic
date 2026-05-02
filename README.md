@@ -342,6 +342,10 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
        - The `I agree` part, activated
        - Then, on the distance bar given in miles, we leave it at: 1.8 mi
        - And finally, we leave `Map reporting interval (seconds)` in: 1 hour
+
+<br>
+
+***And that's it, we can now connect and send messages to the Mehtastic network ✅***
        
 
 
