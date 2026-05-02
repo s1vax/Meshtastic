@@ -199,7 +199,15 @@ Now in this section we'll see how to get the node working. Once we're connected 
 <br>
 
  🔸 ***Settings: Radio Configuration: Channels***
-   - In this section we will add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
+   - First, (only from our cell phone, in the Meshtastic app) we will go to the channel settings and tap where it says `LongFast`. A new window will open and we must have the following configured (this is due to the map I am using which I will explain below in the `MQTT` settings section):
+      - `Uplink enabled` activated
+      - `Downlink enabled` desactivated
+      - `Position enabled` activated
+      - `Precise location` desactivated
+      - And the distance bar should be set to: 1194 ft
+   
+   - In this section we will also add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
+   
    - ***Current Meftastic channels in Argentina*** 
 You can open the following link by tapping it directly on your mobile phone, or on a PC, where you must paste the link into the Meshtastic website https://client.meshtastic.org (the image below explains how), and this will automatically add the mesh communication channels to the Meshtastic app or website:
 
@@ -230,6 +238,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <p align="center">
 <img width="300" height="600" alt="WhatsApp Image 2026-05-01 at 21 10 32" src="https://github.com/user-attachments/assets/80559d45-c3be-4995-b35d-b94f832d6e91" />
 </p>
+
 
 <br>
 <br>
@@ -291,7 +300,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
   
    - Here we begin with the sub-section of `MQTT Config` where we should have:
        - `MQTT enabled` activated
-       - `Address`, `Username` y `Password`. These form the ID of the map server we want to join, that is, where we want our node to appear. We can only make our node appear on one Mestatastic map, out of the many created by the community. For example, I recommend these ones:
+       - `Address`, `Username` y `Password`. These form the ID of the map server we want to join, that is, where we want our node to appear. We can only make our node appear on one Meshtastic map, out of the many created by the community. For example, I recommend these ones:
 
            <p align="center">
            <img width="400" height="300" alt="WhatsApp Image 2026-05-01 at 22 02 29" src="https://github.com/user-attachments/assets/ff036fab-0aab-46e9-b9fe-f95e073111b9" />
