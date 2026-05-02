@@ -67,6 +67,23 @@ The system is based on two fundamental pillars:
 
 <br>
 
+## 🎨 ¿What types of Meshtastic nodes exist?
+- Infrastructure Nodes (Fixed)
+   - Router:
+   - Repeater:
+   
+- Personal or Mobile Nodes
+   - Client:
+   - ClientMute:
+   - Router & Client:
+   
+- Specialized Nodes (Telemetry and Tracking)
+   - Tracker:
+   - Sensor:
+   - TAK:
+
+<br>
+
 ## 🚀 ¿How can we start? --> General Steps
 
 Getting started with Meshtastic is accessible and requires few components. In short, the steps to begin using any Meshtastic device are as follows:
