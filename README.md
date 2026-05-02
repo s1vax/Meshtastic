@@ -107,7 +107,7 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - 📻 Once the board has been acquired, we will perform the initialization steps:
    - ⚠️ ***IMPORTANT*** ⚠️ Before powering the board via the USB-C port, we must connect an antenna (either the one it comes with or any other we have) to its LoRa port. Once this is done, we connect it to our PC (for power and flashing) via the USB 2.0 ports [USB 3.0 ports are not recommended for connecting the board due to interference].
-   - As the next step, we will flash the board using its web flasher (https://flasher.meshtastic.org/). However, unlike the Meshtastic board described below (the Xiao nRF52840 Seed), this one is not flashed directly from the website; there is one less step. The flashing steps are as follows:
+   - As the next step, we will flash the board using its web flasher (https://flasher.meshtastic.org/). However, unlike the Meshtastic board described below (the Xiao nRF52840 Seed), the Heltec is not flashed directly from the website; there is one less step. The flashing steps are as follows:
           
         --> We open the web flasher, and go to the section of `Select Target Device`
                <p align="center">
@@ -241,48 +241,48 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 <br>
 
  🔸 ***Settings: Device Configuration: Device***
-   - En esta seccion debemos tener lo siguiente. En la sub-seccion de `Options`, buscamos que: 
-      - `Device Role` este en: CLIENT
-      - `Rebroadcast Mode` debe estar en: ALL
-      - Y `Node info Broadcast Interval` debe estar en: 3 hours (3 horas)
+   - In this section we must have the following. In the sub-section of `Options`, we seek that:: 
+      - `Device Role` is set to: CLIENT
+      - `Rebroadcast Mode` is set to: ALL
+      - Y `Node info Broadcast Interval` is set to: 3 hours
 
    <br>
    
-   - Pasando de sub-seccion, nos vamos a `Hardware`. Aca podemos configurar a gusto. 
-      - Personalmente tengo activado/on `Tiple Click Ad Hoc Ping` y `Led Heartbeat`
-      - Luego en `Time Zone` ponemos: GMT3
+   - Moving on to the next subsection, we'll go to `Hardware`. Here we can configure it to our liking.
+      - I personally have it activated/on `Tiple Click Ad Hoc Ping` y `Led Heartbeat`
+      - Then in `Time Zone` should be: GMT3
 
 <br>
 <br>
 
  🔸 ***Settings: Device Configuration: Position***
-   - Pasamos a la seccion de `Position`. 
-   - En la sub-seccion de `Position Packet` buscamos que: 
-      - `Broadcast Interval` este en: 15 minutes
-      - `Smart Position` este en activado/on
-      - `Smart Interval` este en: 30 seconds
-      - Y `Smart Distance` este en: 100
+   - We move on to the section of `Position`. 
+   - In the sub-section of `Position Packet` we verify that: 
+      - `Broadcast Interval` is set to: 15 minutes
+      - `Smart Position` is set to activated/on
+      - `Smart Interval` is set to: 30 seconds
+      - Y `Smart Distance` is set to: 100
 
    <br>
    
-   - Pasando de sub-seccion, tenemos `Device GPS` donde buscamos que:
-      - `Fixed Position` este desactivado/off
-      - `GPS Mode (Physical Hardware)` este en: ENABLED
-      - `GPS Polling Interval` este en: 8 seconds
+   - Moving on to the next subsection, we have `Device GPS` where we look for:
+      - `Fixed Position` is set to disabled/off
+      - `GPS Mode (Physical Hardware)` is set to: ENABLED
+      - `GPS Polling Interval` is set to: 8 seconds
    
 <br>
 
-   - Continuando, seguimos con la sub-seccion `Position Flags` donde deberemos de tener:
-      - `Position Flags` en: 811
+   - Continuing, we move on to the sub-section `Position Flags` where we will need to have:
+      - `Position Flags` in: 811
 
 <br>
 
-   - Y finalizando, en la ultima sub-seccion de `Advanced Device GPS`, debemos ver que todos los pines esten en 0.
+   - And finally, in the last subsection of `Advanced Device GPS`, we need to make sure all pins are at 0.
 
 <br>
 <br>
    
- 🔹 ***Vamos omitir algunas secciones ya que el objetivo de este repositorio no es profundizar, sino permitir el uso y acceso de dispositivos meshtastic, es decir, probar una comunicacion inicial y su funcionamiento***
+ 🔹 ***We will omit some sections since the objective of this repository is not to go into depth, but to allow the use and access of Mestatastic devices, that is, to test an initial communication and its operation***
 
  <br>
  <br>
