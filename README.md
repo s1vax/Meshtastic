@@ -218,9 +218,9 @@ Now in this section we'll see how to get the node working. Once we're connected 
  🔸 ***Settings: Radio Configuration: Channels***
    - First, (only from our cell phone, in the Meshtastic app) we will go to the channel settings and tap where it says `LongFast`. A new window will open and we must have the following configured (this is due to the map I am using which I will explain below in the `MQTT` settings section):
       - `Uplink enabled` activated
-      - `Downlink enabled` desactivated
+      - `Downlink enabled` deactivated
       - `Position enabled` activated
-      - `Precise location` desactivated
+      - `Precise location` deactivated
       - And the distance bar should be set to: 1194 ft
    
    - In this section we will also add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
@@ -285,14 +285,14 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
    - We move on to the section of `Position`. 
    - In the sub-section of `Position Packet` we verify that: 
       - `Broadcast Interval` is set to: 15 minutes
-      - `Smart Position` is set to activated/on
+      - `Smart Position` is set to activated
       - `Smart Interval` is set to: 30 seconds
       - Y `Smart Distance` is set to: 100
 
    <br>
    
    - Moving on to the next subsection, we have `Device GPS` where we look for:
-      - `Fixed Position` is set to disabled/off
+      - `Fixed Position` is set to disabled
       - `GPS Mode (Physical Hardware)` is set to: ENABLED
       - `GPS Polling Interval` is set to: 8 seconds
    
@@ -324,7 +324,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
            </p>
        
        - `Encryption enabled` activated (It will depend on the pre-set configurations of the map we want to connect to.)
-       - `JSON output enabled` disabledm (It will depend on the pre-set configurations of the map we want to connect to.)
+       - `JSON output enabled` disabled (It will depend on the pre-set configurations of the map we want to connect to.)
        - `TLS enabled` It will be enabled by default given our configuration
        - `Root topic` in: msh/ANZ
        - And `Proxy to client enabled` activated
