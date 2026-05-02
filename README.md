@@ -329,7 +329,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 - ***Energy Systems:*** 
    - `Solar Panels + Battery`: A 5V to 6V panel (max 1W-2W) can be connected directly to the 1.25mm, 2-pin solar connector. No external charge controller is required. Additionally, a LiPo/Li-ion battery is needed for energy storage; this Heltec model also includes a 1.25mm, 2-pin battery connector for this purpose.
 
-     Solar Panel Connection diagram
+     📌 ***Solar Panel Connection diagram (in progress)***
    
    - `LiPo/Li-ion Batteries`: It supports 3.7V cells. It is possible to scale from the standard 800-1100mAh to 18650 or 21700 cells of 5000mAh for extended runtime.
    
@@ -520,7 +520,7 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 <br>
 
-### 🧊 3D cases (for the models above)
+### 🧊 3D cases (for the models above) (📌 in progress)
 <br>
 <br>
 <br>
