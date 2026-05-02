@@ -190,7 +190,7 @@ Now in this section we'll see how to get the node working. Once we're connected 
    - In the same section (⚠️ FOR NOW, DUE TO THE CURRENT DEVELOPMENT OF THE SAN LUIS, ARGENTINA, COMMUNITY IN MESHTASTIC) we will put the following:
        - `Number of Hops` = 7
        - `Frecuency Slot` = 20
-   - Even within that section, we will activate/on `RX Boosted Gain`
+   - Even within that section, we will activate `RX Boosted Gain`
    - And finally, you should see the following at the end of this sub-section:
        - `Frequency Override` = 919.875
        - `Transmit Power` = 27
@@ -249,8 +249,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
    <br>
    
    - Moving on to the next subsection, we'll go to `Hardware`. Here we can configure it to our liking.
-      - I personally have it activated/on `Tiple Click Ad Hoc Ping` y `Led Heartbeat`
-      - Then in `Time Zone` should be: GMT3
+      - I personally have activated: `Tiple Click Ad Hoc Ping` & `Led Heartbeat`
+      - In `Time Zone` should be: GMT3
 
 <br>
 <br>
@@ -289,22 +289,27 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 
   🔸 ***Settings: Module Configuration: MQTT***
   
-   - Aqui empezamos con la sub-seccion de `MQTT Config` donde debemos de tener:
-       - `MQTT enabled` en activado/on
-       - `Address`, `Username` y `Password`. Estos conforman el ID del servidor de mapas al que nos queremos unir, es decir, donde queremos que nuestro nodo aparezca. Solo podemos hacer aparecer a nuestro nodo en un solo mapa de meshtastic, de los muchos que existen creados por la comunidad. (colocar foto)
-       - `Encryption enabled` en activado/on (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
-       - `JSON output enabled` en desactivado/off (dependera de las configuraciones pre-establecidas del mapa al que nos queremos conectar)
-       - `TLS enabled` saldra activado por defecto dada nuestra configuracion
-       - `Root topic` en: msh/ANZ
-       - Y `Proxy to client enabled` en activado/o
+   - Here we begin with the sub-section of `MQTT Config` where we should have:
+       - `MQTT enabled` activated
+       - `Address`, `Username` y `Password`. These form the ID of the map server we want to join, that is, where we want our node to appear. We can only make our node appear on one Mestatastic map, out of the many created by the community. For example, I recommend these ones:
+
+           <p align="center">
+           <img width="400" height="300" alt="WhatsApp Image 2026-05-01 at 22 02 29" src="https://github.com/user-attachments/assets/ff036fab-0aab-46e9-b9fe-f95e073111b9" />
+           </p>
+       
+       - `Encryption enabled` activated (It will depend on the pre-set configurations of the map we want to connect to.)
+       - `JSON output enabled` disabledm (It will depend on the pre-set configurations of the map we want to connect to.)
+       - `TLS enabled` It will be enabled by default given our configuration
+       - `Root topic` in: msh/ANZ
+       - And `Proxy to client enabled` activated
 
 <br>
        
-   - Luego tenemos la siguiente sub-seccion de `Map reporting`, donde buscamos que:
-       - `Map reporting` este activado/on
-       - Siguiente a ello, ponemos `I agree` en activado/on
-       - Luego, en la barra de distancia dada por millas, la dejamos en: 1.8 mi
-       - Y finalmente, dejamos a `Map reporting interval (seconds)` en: 1 hour
+   - Next, we have the following subsection of `Map reporting`, where we are looking for:
+       - `Map reporting` activated
+       - The `I agree` part, activated
+       - Then, on the distance bar given in miles, we leave it at: 1.8 mi
+       - And finally, we leave `Map reporting interval (seconds)` in: 1 hour
        
 
 
@@ -349,7 +354,7 @@ Function: Cuts off power if the voltage drops below 2.4V (preventing the battery
 - ***RF Upgrades (Antennas & Connectors):***
 The factory-installed "spring" antenna is limited. To improve range:
    - `Pigtail IPEX (U.FL) a SMA`: It allows the use of higher gain external antennas.
-   - `Antenas Dipolo o Fibra de Vidrio`: If the node will be fixed (Router), a 3dBi to 5dBi antenna optimized for the frequency of your area (typically 915MHz in Argentina) will make a noticeable difference in the coverage radius.
+   - `Dipole or Fiberglass Antennas`: If the node will be fixed (Router), a 3dBi to 5dBi antenna optimized for the frequency of your area (typically 915MHz in Argentina) will make a noticeable difference in the coverage radius.
    
 - ***User Interface and Alerts:***
    - `Passive Buzzer`: A buzzer can be configured to receive audible alerts when a message arrives or a new node joins the network.
