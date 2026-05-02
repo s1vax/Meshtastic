@@ -8,6 +8,7 @@
 </p>
 
   [![Meshtastic](https://img.shields.io/badge/Meshtastic_Website-00750B?style=for-the-badge)](https://meshtastic.org/) 
+  [![Meshtastic ARG](https://img.shields.io/badge/Meshtastic_Argentina-1489A6?style=for-the-badge)](https://mesharg.com.ar/) 
 
 
 
@@ -173,24 +174,24 @@ In the following sections, we will delve deeper into the configuration and optim
    
 - 💽 Board settings ***(important for proper operation)***
 
-Ahora en esta parte veremos como hacer funcionar el nodo. Una vez que estemos conectados con el dispositivo por medio de cualquier app de Meshtastic, en primer lugar vamos a ir al apartado de `Settings`, y para empezar con esto entraremos a la opcion de `LoRa`.
+Now in this section we'll see how to get the node working. Once we're connected to the device using any Meshtastic app, we'll first go to the section of `Settings`, and to begin with, we will go to the option of `LoRa`.
 
  🔸 ***Settings: Radio Configuration: LoRa***
-   - Dentro de `LoRa`, iremos a la sub-seccion de `Options` y buscaremos que:
-      - `Region` este en: Australia / Brazil / New Zealand
-      - `Use Presets` este en activado/on
-      - `Presets` se encuentre en: LONG_FAST
+   - Within `LoRa`, we will go to the `Options` subsection and verify that:
+      - `Region` is set to: Australia / Brazil / New Zealand
+      - `Use Presets` is set to enabled/on
+      - `Presets` is set to: LONG_FAST
 
    <br>
    
-   - Luego, continuamos con la siguiente sub-seccion de `Advanced`. Aqui pondremos en activado/on a lo siguiente:
+   - Next, we continue with the following subsection of `Advanced`. Here we will activate/on the following:
        - `Ok to MQTT`
        - `Transmit Enabled`
-   - En el mismo apartado (POR AHORA, DEBIDO AL ACTUAL DESARROLLO DE LA COMUNIDAD DE SAN LUIS EN MESHTASTIC) pondremos lo siguiente:
+   - In the same section (⚠️ FOR NOW, DUE TO THE CURRENT DEVELOPMENT OF THE SAN LUIS, ARGENTINA COMMUNITY IN MESHTASTIC) we will put the following:
        - `Number of Hops` = 7
        - `Frecuency Slot` = 20
-   - Aun en el apartado, le daremos activado/on a `RX Boosted Gain`
-   - Y por ultimo, les deberia salir lo siguiente, al final de esta sub-seccion:
+   - Even within that section, we will activate/on `RX Boosted Gain`
+   - And finally, you should see the following at the end of this sub-section:
        - `Frequency Override` = 919.875
        - `Transmit Power` = 27
 
