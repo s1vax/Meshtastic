@@ -89,7 +89,12 @@ The system is based on two fundamental pillars:
 
 <br>
 
-## 🚀 ¿How can we start? --> General Steps
+## 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic (📌 in progress)
+
+
+<br>
+
+## 🚀 ¿How can we start? --> General steps to start using Meshtastic
 
 Getting started with Meshtastic is accessible and requires few components. In short, the steps to begin using any Meshtastic device are as follows:
 
@@ -102,7 +107,9 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 
 ## 🛠️ Hardware and Specific Configurations
 
-In the following sections, we will delve deeper into the configuration and optimization of 2 specific mesh device models, the Heltec T114 v2 and the Seed Xiao nrf52840, detailing their features, advantages, connection schemes, flashing and configurations.
+In the following sections, we will delve deeper into the configuration and optimization of 2 specific mesh device models, the Heltec T114 v2 and the Seed Xiao nrf52840, detailing their features, advantages, connection schemes, flashing and configurations. 
+
+***NOTE:*** This configuration is based on Argentina; if you are from another country, you will probably have to make certain adjustments (mainly in the LoRa configuration section).
 
 ### 🔹 Heltec T114 v2 (with screen)
 
@@ -229,12 +236,18 @@ Once we're connected to the device using any Meshtastic app, we'll first go to t
       - `Position enabled` activated
       - `Precise location` deactivated
       - And the distance bar should be set to: 1194 ft
+
+   - ***Current Mestastic channels in Argentina (Secondary channels)*** 
    
    - In this section we will also add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
-   
-   - ***Current Mestastic channels in Argentina*** 
-### Seconday channels
-| Canal | PSK | Region |
+
+   - You can open the following link by tapping it directly on your mobile phone, or on a PC, where you must paste the link into the Meshtastic website https://client.meshtastic.org (the image below explains how), and this will automatically add the argentinian mesh communication channels (all of them) to the Meshtastic app or website:
+
+https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
+
+   - If you don't want them all added at the same time, and only want to add one or a couple, you can add the following PSKs for the channels you want:
+
+| Channel | PSK | Region |
 |--------|-----------|--------|
 | BairesMesh | aB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtA= | CABA & AMBA 
 | RosarioMesh | kss+4MMhc9unauU8i6bix0Lt/pkjWMv1PIFr0fH8g58= | Rosario 
