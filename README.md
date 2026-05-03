@@ -63,7 +63,7 @@ The system is based on two fundamental pillars:
 - `Meshtastic Maps`: These are web-based platforms (like MeshMap or En some regions, MQTT-linked maps) that show the location of "public" nodes. If your device has GPS and you opt-in to sharing, your node will appear on a global map, helping others see the network's coverage in their area. Some maps are:
      - Liam Cottle: https://meshtastic.liamcottle.net/
      - MeshMap: https://meshmap.net/
-- `MQQT` (Message Queuing Telemetry Transport): This is a bridge between the radio world and the internet. If one node in a mesh is connected to a phone with internet or a Wi-Fi gateway, it can push the local mesh traffic to an MQTT Broker. As result, you can talk to a mesh network in another city or country as if they were right next to you, effectively linking "islands" of radio users together via the web.
+- `MQTT` (Message Queuing Telemetry Transport): This is a bridge between the radio world and the internet. If one node in a mesh is connected to a phone with internet or a Wi-Fi gateway, it can push the local mesh traffic to an MQTT Broker. As result, you can talk to a mesh network in another city or country as if they were right next to you, effectively linking "islands" of radio users together via the web.
 
 <br>
 
@@ -78,6 +78,7 @@ The system is based on two fundamental pillars:
    - `Client`: This is the default role when you flash a board. It's designed to be actively used by a single person. It routes messages from other nodes to help the network, but enters sleep mode to conserve battery power when not in use.
    - `ClientMute`: It works the same as the Client, but it doesn't act as a repeater. It only sends and receives user messages. It's ideal when you need to maximize battery life or when you're in an area with many nodes and relaying all the traffic would quickly drain your power.
    - `Router & Client`: It's a combination. It functions like a router (it doesn't sleep, it prioritizes traffic), but it also assumes there's a user actively connected to it sending messages. It requires a good power supply.
+   - `ClientHidden`: Think of it as a stealth version of the regular Client. It behaves almost the same in terms of sending and receiving your messages, but it tries to stay invisible to the rest of the mesh.It does not advertise itself loudly and avoids being listed or easily discovered by other nodes.
 
    <br>
    
@@ -231,10 +232,16 @@ Once we're connected to the device using any Meshtastic app, we'll first go to t
    
    - In this section we will also add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
    
-   - ***Current Meftastic channels in Argentina*** 
-You can open the following link by tapping it directly on your mobile phone, or on a PC, where you must paste the link into the Meshtastic website https://client.meshtastic.org (the image below explains how), and this will automatically add the mesh communication channels to the Meshtastic app or website:
-
-https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
+   - ***Current Mestastic channels in Argentina*** 
+### Seconday channels
+| Canal | PSK | Region |
+|--------|-----------|--------|
+| BairesMesh | aB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtA= | CABA & AMBA 
+| RosarioMesh | kss+4MMhc9unauU8i6bix0Lt/pkjWMv1PIFr0fH8g58= | Rosario 
+| NQNmesh | B7jYDJLWy9TSnajWI/yAJETLBcjN2RNXUU4jS4eRyJo= | Neuquén
+| CordobaMesh |  CoRd0B4lHaBoN6OWT0u2EvNX9Jci7gsIiIJtD30BCCw= | Córdoba
+| ERMesh | w9nTAUTYp2eFo7KyCfo5a42YSM4ewfrV/PSoxcjrAPI= | Entre Ríos
+| MendozaMesh | yVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCs= | Mendoza
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> If you don't know how to copy and use the link above on your PC on the Meshtastic website, you must click on the sections of the site in the numerical order shown in the following image:
      
