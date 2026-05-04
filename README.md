@@ -216,7 +216,14 @@ In the following sections, we will delve deeper into the configuration and optim
         <img width="1200" height="700" alt="image" src="https://github.com/user-attachments/assets/1bc2a852-022c-410f-8626-694ff326b40b" />
            </p>
 
-        --> What will happen is that a file will be downloaded. You will need to copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for this to take a little while and for the board to restart. And that's it! ✅ Your Meshtastic board is now flashed and ready to use and configure.
+        --> What will happen is that a file will be downloaded. You will need to copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for this to take a little while and for the board to restart. 
+
+      <br>
+      <br>
+         
+        And that's it! ✅ Your Meshtastic board is now flashed and ready to use and configure.
+
+      <br>
 
    - ***Optional step [Once the board has been flashed, it can be disconnected from the PC]***  
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
@@ -525,7 +532,14 @@ The factory-installed "spring" antenna is limited. To improve range:
          <img width="1570" height="872" alt="image" src="https://github.com/user-attachments/assets/998a0114-7e0a-4791-bbb7-626decdafb11" />
            </p>
            
-        --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart. And that's it! ✅ Your Meshtastic board is now flashed and ready to use and configure.
+        --> Finally, once this is done, a file will be downloaded. Copy this file to the folder created by the Meshtastic device when you connect it to your PC (it appears as a disk). It's normal for the transfer to take a little while and for the board to restart.
+
+      <br>
+      <br>
+         
+        And that's it! ✅ Your Meshtastic board is now flashed and ready to use and configure.
+
+      <br>
 
    - ***Optional step [Once the board has been flashed, it can be disconnected from the PC]***    
    - After that, to obtain the Meshtastic configuration software, we will download the Meshtastic app from the Play Store on our mobile phone, or we can directly access it from our PC at: https://client.meshtastic.org
