@@ -16,6 +16,60 @@
 
 <br>
 
+### 🗃️ Repository Structure
+```
+🌐 Meshtastic
+├── 🔎 ¿What is Meshtastic? 
+│
+│
+├── 🎯 ¿What is it used for?
+│
+│
+├── ⚙️ ¿How it works?
+│    ├── 📡 LoRa technology
+│    │
+│    └── 📡 Mesh Topology
+│
+│
+├── 🎨 ¿What types of Meshtastic nodes exist?
+│    ├── Infrastructure Nodes (Fixed)
+│    │
+│    ├── Personal or Mobile Nodes
+│    │
+│    └── Specialized Nodes (Telemetry and Tracking)
+│
+│
+├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic (📌 in progress)
+│
+│
+├── 🚀 ¿How can we start? --> General steps to start using Meshtastic
+│    ├── Get the Hardware
+│    │
+│    ├── Flash the Firmware
+│    │
+│    ├── Use the Meshtastic App´s
+│    │
+│    └── Pair and Configure
+│
+│
+├── 🛠️ Hardware and Specific Configurations
+│    ├── 🔹 Heltec T114 v2 (with screen)
+│    │
+│    ├── 🔹 Seed Studio Xiao nrf52840
+│    │
+│    └── 🔹 Other Meshtastic models
+│
+│
+├── 🧊 3D cases (📌 in progress)
+│
+│
+├── ⚖️ Disclaimer
+│
+└── I hope you found it useful and entertaining. If so, leave a star ⭐ Best wishes and much success!
+```
+
+<br>
+
 ## 🔎 ¿What is Meshtastic?
 
 ***Meshtastic*** is an open-source project that allows you to create a decentralized mesh network using ***LoRa*** (Long Range) technology. 
@@ -207,13 +261,14 @@ Now in this section we'll see how to get the node working. It's important to not
 
 Once we're connected to the device using any Meshtastic app, we'll first go to the section of `Settings`, and to begin with, we will go to the option of `LoRa`.
 
+<br>
+<br>
+
  🔸 ***Settings: Radio Configuration: LoRa***
    - Within `LoRa`, we will go to the `Options` subsection and verify that:
       - `Region` is set to: Australia / Brazil / New Zealand
       - `Use Presets` is set to enabled/on
       - `Presets` is set to: LONG_FAST
-
-   <br>
    
    - Next, we continue with the following subsection of `Advanced`. Here we will activate the following:
        - `Ok to MQTT`
@@ -239,13 +294,13 @@ Once we're connected to the device using any Meshtastic app, we'll first go to t
 
    - ***Current Mestastic channels in Argentina (Secondary channels)*** 
    
-   - In this section we will also add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
+     - In this section we will also add the channels for Argentina (means through which communication with other mesh nodes/devices is possible)
 
-   - You can open the following link by tapping it directly on your mobile phone, or on a PC, where you must paste the link into the Meshtastic website https://client.meshtastic.org (the image below explains how), and this will automatically add the argentinian mesh communication channels (all of them) to the Meshtastic app or website:
+     - You can open the following link by tapping it directly on your mobile phone, or on a PC, where you must paste the link into the Meshtastic website https://client.meshtastic.org (the image below explains how), and this will automatically add the argentinian mesh communication channels (all of them) to the Meshtastic app or website:
 
-https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
+         https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEtbTUVZOHKxuCaCKaHtAaCkJhaXJlc01lc2goATABOgAKNRIgyVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCsaC01lbmRvemFNZXNoKAEwAToACjoSIJLLPuDDIXPbp2rlPIum4sdC7f6ZI1jL9TyBa9Hx_IOfGgtSb3NhcmlvTWVzaCUDAAAAKAEwAToACjASIMPZ0wFE2KdnhaOysgn6OWuNmEjOHsH61fz0qMXI6wDyGgZFUk1lc2goATABOgAKMxIgAe6IxXali8k08O27Gl04A_2yzvTj9XVnb-r0ZnpLRpkaCVBBVEFHT05JQSgBMAE6AAoxEiAHuNgMktbL1NKdqNYj_IAkRMsFyM3ZE1dRTiNLh5HImhoHTlFObWVzaCgBMAE6ABIWCAEY-gEgCygFOAZAB0gBUB5oAcAGAQ
 
-   - If you don't want them all added at the same time, and only want to add one or a couple, you can add the following PSKs for the channels you want:
+     - If you don't want them all added at the same time, and only want to add one or a couple, you can add the following PSKs for the channels you want:
 
 | Channel | PSK | Region |
 |--------|-----------|--------|
@@ -255,6 +310,8 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
 | CordobaMesh |  CoRd0B4lHaBoN6OWT0u2EvNX9Jci7gsIiIJtD30BCCw= | Córdoba
 | ERMesh | w9nTAUTYp2eFo7KyCfo5a42YSM4ewfrV/PSoxcjrAPI= | Entre Ríos
 | MendozaMesh | yVyN1359YQb0S1LW2cslgMrXHbTkHnR1TSHYDa7VCCs= | Mendoza
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> If you don't know how to copy and use the link above on your PC on the Meshtastic website, you must click on the sections of the site in the numerical order shown in the following image:
      
@@ -297,8 +354,6 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
       - `Device Role` is set to: CLIENT
       - `Rebroadcast Mode` is set to: ALL
       - Y `Node info Broadcast Interval` is set to: 3 hours
-
-   <br>
    
    - Moving on to the next subsection, we'll go to `Hardware`. Here we can configure it to our liking.
       - I personally have activated: `Tiple Click Ad Hoc Ping` & `Led Heartbeat`
@@ -314,20 +369,14 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
       - `Smart Position` is set to activated
       - `Smart Interval` is set to: 30 seconds
       - Y `Smart Distance` is set to: 100
-
-   <br>
    
    - Moving on to the next subsection, we have `Device GPS` where we look for:
       - `Fixed Position` is set to disabled
       - `GPS Mode (Physical Hardware)` is set to: ENABLED
       - `GPS Polling Interval` is set to: 8 seconds
-   
-<br>
 
    - Continuing, we move on to the sub-section `Position Flags` where we will need to have:
       - `Position Flags` in: 811
-
-<br>
 
    - And finally, in the last subsection of `Advanced Device GPS`, we need to make sure all pins are at 0.
 
@@ -354,8 +403,6 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
        - `TLS enabled` It will be enabled by default given our configuration
        - `Root topic` in: msh/ANZ
        - And `Proxy to client enabled` activated
-
-<br>
        
    - Next, we have the following subsection of `Map reporting`, where we are looking for:
        - `Map reporting` activated
@@ -363,6 +410,7 @@ https://meshtastic.org/e/?add=true#CgkSAQEoATABOgAKNBIgaB3K7ZIciBKq49nxn5gVmPQEt
        - Then, on the distance bar given in miles, we leave it at: 1.8 mi
        - And finally, we leave `Map reporting interval (seconds)` in: 1 hour
 
+<br>
 <br>
 
 ***And that's it, we can now connect and send messages to the Mehtastic network ✅***
@@ -582,14 +630,6 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 <br>
 
-### 🧊 3D cases (for the models above) (📌 in progress)
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ### 🔹 Other Meshtastic models
 <p align="center">
 <img width="210" height="210" alt="MeetUps" src="https://github.com/user-attachments/assets/de9f078d-02fb-4260-952c-880a839094af" />
@@ -666,6 +706,19 @@ Considered the "gold standard" for serious nodes and solar stations.
    - Case: Robust aluminum alloy.
    - Characteristics: SMA connector for external high-gain antenna and front USB-C port.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## 🧊 3D cases (📌 in progress)
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 ## ⚖️ Disclaimer
