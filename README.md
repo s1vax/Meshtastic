@@ -161,7 +161,7 @@ Getting started with Meshtastic is accessible and requires few components. In sh
 
 ## 🛠️ Hardware and Specific Configurations
 
-In the following sections, we will delve deeper into the configuration and optimization of 2 specific mesh device models, the Heltec T114 v2 and the Seed Xiao nrf52840, detailing their features, advantages, connection schemes, flashing and configurations. 
+In the following sections, we will delve into two specific mesh device models, the Heltec T114 v2 and the Seed Xiao nrf52840, detailing their features, advantages, connection diagrams, flashing, and configurations. They will be configured as Personal or Mobile Nodes, with the aim of verifying their functionality and establishing initial communication.
 
 ***NOTE:*** This configuration is based on Argentina; if you are from another country, you will probably have to make certain adjustments (mainly in the LoRa configuration section).
 
