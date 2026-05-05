@@ -32,24 +32,25 @@
 │
 │
 ├── 🎨 ¿What types of Meshtastic nodes exist?
-│    ├── Infrastructure Nodes (Fixed)
+│    ├── - Infrastructure Nodes (Fixed)
 │    │
-│    ├── Personal or Mobile Nodes
+│    ├── - Personal or Mobile Nodes
 │    │
-│    └── Specialized Nodes (Telemetry and Tracking)
+│    └── - Specialized Nodes (Telemetry and Tracking)
 │
 │
 ├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic (📌 in progress)
 │
 │
+│
 ├── 🚀 ¿How can we start? --> General steps to start using Meshtastic
-│    ├── Get the Hardware
+│    ├── - Get the Hardware
 │    │
-│    ├── Flash the Firmware
+│    ├── - Flash the Firmware
 │    │
-│    ├── Use the Meshtastic App´s
+│    ├── - Use the Meshtastic App´s
 │    │
-│    └── Pair and Configure
+│    └── - Pair and Configure
 │
 │
 ├── 🛠️ Hardware and Specific Configurations
@@ -61,6 +62,7 @@
 │
 │
 ├── 🧊 3D cases (📌 in progress)
+│
 │
 │
 ├── ⚖️ Disclaimer
