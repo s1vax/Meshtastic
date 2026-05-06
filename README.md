@@ -151,6 +151,8 @@ Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogrou
 
 In short, what is OSINT? --> Open Source Intelligence (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
 
+¿En que consiste este mini-desafio? Te pondras en el lugar de un agente de OSINT y deberas de encontrar, mediante cualquier herramienta o sitio que se te ocurra que este en internet (y sea legal obvio), 2 dispositivos Meshtastic que estan siendo usados por un grupo cibercriminal llamado FSociety (si, Mr. Robot referencia) para comunicarse entre si, y orquestar ataques a bases de datos en ciertos puntos de Argentina y Uruguay.
+
 ***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. All you need is a device you can use to access the form and a strong desire to have fun.!
 
 👉 https://forms.gle/bTwt6tVbDUNSLwcEA
