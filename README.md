@@ -145,7 +145,14 @@ The system is based on two fundamental pillars:
 
 <br>
 
-## 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic (📌 in progress)
+## 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic 
+Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogroup San Luis, where we tackled OSINT challenges. This particular challenge is related to Meshtastic!
+
+En palabras breves ¿Que es OSINT? -->  Open Source Intelligence (OSINT), es la recopilación, análisis y procesamiento de información disponible públicamente de forma legal para convertirla en conocimiento útil. Esta metodología abarca datos de internet, redes sociales, registros públicos y medios de comunicación para investigar personas, empresas o amenazas de seguridad.
+
+Note: El desafio esta en idioma español, pero lo pueden traducir y realizar sin la necesidad de tener un nodo Meshtastic con ustedes.
+
+👉 https://forms.gle/bTwt6tVbDUNSLwcEA
 
 
 <br>
