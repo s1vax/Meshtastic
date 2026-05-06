@@ -149,9 +149,9 @@ The system is based on two fundamental pillars:
 ## 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic 
 Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogroup San Luis, where we tackled OSINT challenges. This particular challenge is related to Meshtastic!
 
-In short, what is OSINT? --> Open Source Intelligence (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
+In short, what is `OSINT`? --> `Open Source Intelligence` (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
 
-¿En que consiste este mini-desafio? Te pondras en el lugar de un agente de OSINT y deberas de encontrar, mediante cualquier herramienta o sitio que se te ocurra que este en internet (y sea legal obvio), 2 dispositivos Meshtastic que estan siendo usados por un grupo cibercriminal llamado FSociety (si, Mr. Robot referencia) para comunicarse entre si, y orquestar ataques a bases de datos en ciertos puntos de Argentina y Uruguay.
+What does this mini-challenge consist of? You will put yourself in the shoes of an OSINT agent and must find, using any tool or site you can think of on the internet (and that is legal, obviously), `2 Meshtastic devices` that are being used by a cybercriminal group called `FSociety` (yes, Mr. Robot reference) to communicate with each other, and orchestrate attacks on data centers in certain locations in Argentina and Uruguay.
 
 ***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. All you need is a device you can use to access the form and a strong desire to have fun.!
 
