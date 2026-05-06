@@ -150,7 +150,7 @@ Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogrou
 
 In short, what is OSINT? --> Open Source Intelligence (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
 
-Note: El desafio esta en idioma español, pero lo pueden traducir y realizar sin la necesidad de tener un nodo Meshtastic con ustedes.
+Note: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node.
 
 👉 https://forms.gle/bTwt6tVbDUNSLwcEA
 
