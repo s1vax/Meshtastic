@@ -40,7 +40,8 @@
 │
 │
 ├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic
-│    └── A small OSINT challenge in Spanish related to Meshtastic (you don't need a node to do it, just internet and lots of enthusiasm!)
+│    └── A small OSINT challenge in Spanish related to Meshtastic 
+│        (you don't need a node to do it, just internet and lots of enthusiasm!)
 │
 │
 ├── 🚀 ¿How can we start? --> General steps to start using Meshtastic
@@ -150,7 +151,7 @@ Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogrou
 
 In short, what is OSINT? --> Open Source Intelligence (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
 
-Note: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node.
+***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. All you need is a device you can use to access the form and a strong desire to have fun.!
 
 👉 https://forms.gle/bTwt6tVbDUNSLwcEA
 
