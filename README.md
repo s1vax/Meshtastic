@@ -40,7 +40,7 @@
 │
 │
 ├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic
-│    └── Un pequeño desafio de OSINT en español relacionado a Meshtastic (para hacerlo no necesitas un nodo, solo internet y muchas ganas!)
+│    └── A small OSINT challenge in Spanish related to Meshtastic (you don't need a node to do it, just internet and lots of enthusiasm!)
 │
 │
 ├── 🚀 ¿How can we start? --> General steps to start using Meshtastic
