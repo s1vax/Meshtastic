@@ -39,8 +39,8 @@
 │    └── - Specialized Nodes (Telemetry and Tracking)
 │
 │
-├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic (📌 in progress)
-│
+├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic
+│    └── Un pequeño desafio de OSINT en español relacionado a Meshtastic (para hacerlo no necesitas un nodo, solo internet y muchas ganas!)
 │
 │
 ├── 🚀 ¿How can we start? --> General steps to start using Meshtastic
