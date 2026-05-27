@@ -62,7 +62,7 @@
 │    └── 🔹 Other Meshtastic models
 │
 │
-├── 
+├── 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
 │
 │
 ├── 🧊 3D cases (📌 in progress)
