@@ -739,7 +739,7 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 <br>
 
-## 🏔️ ¿Como hicimos para instalar un nodo en un espacio publico clave? (📌 in progress)
+## 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
 
 <br>
 <br>
