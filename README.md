@@ -762,10 +762,21 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 <br>
 
+## 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities (📌 in progress)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## ⚖️ Disclaimer
 I am not responsible for any issues with the distributors of the links shared in this repository. Open and use them at your own risk. 
 
 I only share the links that I have used under my own responsibility and supervision during the execution of projects with Meshtastic.
+
+Regarding cybersecurity and Mestatastic vulnerabilities, I am only sharing this information for educational and awareness purposes. This repository does not promote the illegal exploitation of these firmware vulnerabilities, and the repository's author is not responsible for any misuse.
 
 <br>
 
