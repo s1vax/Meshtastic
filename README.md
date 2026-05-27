@@ -68,7 +68,7 @@
 ├── 🧊 3D cases (📌 in progress)
 │
 │
-├── 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities
+├── 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities (📌 in progress)
 │
 │
 ├── ⚖️ Disclaimer
