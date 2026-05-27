@@ -62,8 +62,10 @@
 │    └── 🔹 Other Meshtastic models
 │
 │
-├── 🧊 3D cases (📌 in progress)
+├── 
 │
+│
+├── 🧊 3D cases (📌 in progress)
 │
 │
 ├── ⚖️ Disclaimer
