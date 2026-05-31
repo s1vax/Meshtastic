@@ -596,7 +596,7 @@ The factory-installed "spring" antenna is limited. To improve range:
    
 - 💽 Board settings ***(important for proper operation)***
    - This section is the same as the one above, for the Heltec t114 v2 mesh device. Therefore, if you are in Argentina, you should follow the same settings mentioned previously.
-   [🔹 Heltec T114 v2 (with screen)](https://github.com/s1vax/Meshtastic/tree/main?tab=readme-ov-file#-heltec-t114-v2-with-screen) (in the `Board settings` section)
+   [🔹 Heltec T114 v2 (with screen)](https://github.com/s1vax/Meshtastic/tree/main?tab=readme-ov-file#-heltec-t114-v2-with-screen) (in the `💽 Board settings` section)
 
 <br>
 
