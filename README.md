@@ -113,7 +113,9 @@ The system is based on two fundamental pillars:
     - North America: 915 MHz
     - Europe: 868 MHz
     - Asia/Oceania/Others: Often 433 MHz or 923 MHz.
+    
 - `Power Consumption`: Extremely low. Most devices (like the Heltec V3 or T-Beam) consume between 20mA and 100mA while active. On a standard 3000mAh 18650 battery, a device can last anywhere from 24 hours to several days depending on screen usage and sleep settings.
+
 - `Distances`: 
     - Urban: ≈ 1–5 km (due to buildings/interference).
     - Rural/Line of Sight: ≈ 10–30 km.
@@ -126,6 +128,7 @@ The system is based on two fundamental pillars:
 - `Meshtastic Maps`: These are web-based platforms (like MeshMap or En some regions, MQTT-linked maps) that show the location of "public" nodes. If your device has GPS and you opt-in to sharing, your node will appear on a global map, helping others see the network's coverage in their area. Some maps are:
      - Liam Cottle: https://meshtastic.liamcottle.net/
      - MeshMap: https://meshmap.net/
+     
 - `MQTT` (Message Queuing Telemetry Transport): This is a bridge between the radio world and the internet. If one node in a mesh is connected to a phone with internet or a Wi-Fi gateway, it can push the local mesh traffic to an MQTT Broker. As result, you can talk to a mesh network in another city or country as if they were right next to you, effectively linking "islands" of radio users together via the web.
 
 <br>
