@@ -66,6 +66,9 @@
 ├── 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
 │
 │
+├── 🚀 ¿How did we create the mesh network in San Luis capital, Argentina? (📌 in progress)
+│
+│
 ├── 🧊 3D cases (📌 in progress)
 │
 │
@@ -114,7 +117,7 @@ The system is based on two fundamental pillars:
     - Europe: 868 MHz
     - Asia/Oceania/Others: Often 433 MHz or 923 MHz.
     
-- `Power Consumption`: Extremely low. Most devices (like the Heltec V3 or T-Beam) consume between 20mA and 100mA while active. On a standard 3000mAh 18650 battery, a device can last anywhere from 24 hours to several days depending on screen usage and sleep settings.
+- `Power Consumption`: Extremely low. Most devices (like the Heltec V3 or T-Beam) consume between 20mA and 100mA while active. On a standard 3000mAh 18650 battery, a device can last anywhere from 24 hours to several days depending on screen usage and sleep settings. Between 20 mW and 5 W.
 
 - `Distances`: 
     - Urban: ≈ 1–5 km (due to buildings/interference).
@@ -749,6 +752,15 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 
 ## 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## 🚀 ¿How did we create the mesh network in San Luis capital, Argentina? (📌 in progress)
 
 <br>
 <br>
