@@ -157,20 +157,6 @@ The system is based on two fundamental pillars:
 
 <br>
 
-## 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic 
-Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogroup San Luis, where we tackled OSINT challenges. This particular challenge is related to Meshtastic!
-
-In short, what is `OSINT`? --> `Open Source Intelligence` (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
-
-What does this mini-challenge consist of? You will put yourself in the shoes of an OSINT agent and must find, using any tool or site you can think of on the internet (and that is legal, obviously), `2 Meshtastic devices` that are being used by a cybercriminal group called `FSociety` (yes, Mr. Robot reference) to communicate with each other, and orchestrate attacks on data centers in certain locations in Argentina and Uruguay.
-
-***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. You don't need to answer the questions in Spanish. All you need is a device you can use to access the form and a strong desire to have fun!
-
-👉 https://forms.gle/bTwt6tVbDUNSLwcEA
-
-
-<br>
-
 ## 🚀 ¿How can we start? --> General steps to start using Meshtastic
 
 Getting started with Meshtastic is accessible and requires few components. In short, the steps to begin using any Meshtastic device are as follows:
@@ -778,6 +764,22 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 
 ## 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities (📌 in progress)
+
+<br>
+
+### 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic 
+Here's a challenge I created for the first Hack the Box Meetup hosted by Ekogroup San Luis, where we tackled OSINT challenges. This particular challenge is related to Meshtastic!
+
+In short, what is `OSINT`? --> `Open Source Intelligence` (OSINT) is the legal collection, analysis, and processing of publicly available information to transform it into useful knowledge. This methodology encompasses data from the internet, social media, public records, and news outlets to investigate individuals, companies, or security threats.
+
+What does this mini-challenge consist of? You will put yourself in the shoes of an OSINT agent and must find, using any tool or site you can think of on the internet (and that is legal, obviously), `2 Meshtastic devices` that are being used by a cybercriminal group called `FSociety` (yes, Mr. Robot reference) to communicate with each other, and orchestrate attacks on data centers in certain locations in Argentina and Uruguay.
+
+***NOTE***: The challenge is in Spanish, but you can translate it and complete it without needing a Meshtastic node. You don't need to answer the questions in Spanish. All you need is a device you can use to access the form and a strong desire to have fun!
+
+👉 https://forms.gle/bTwt6tVbDUNSLwcEA
+
+
+<br>
 
 <br>
 <br>
