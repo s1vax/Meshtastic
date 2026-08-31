@@ -125,13 +125,15 @@ The system is based on two fundamental pillars:
     
 <br>
 
-📡  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes.
+📡  **Mesh Topology:** Here's the magic. Each device (node) in the network not only sends and receives its own messages, but also acts as a repeater for the others. If Node A wants to talk to Node C, but they are far apart, the message can hop through Node B, which is in between. The more nodes there are, the more robust and extensive the network becomes. Added to this is the possibility of including MQTT and other functionalities:
 
-- `Meshtastic Maps`: These are web-based platforms (like MeshMap or En some regions, MQTT-linked maps) that show the location of "public" nodes. If your device has GPS and you opt-in to sharing, your node will appear on a global map, helping others see the network's coverage in their area. Some maps are:
-     - Liam Cottle: https://meshtastic.liamcottle.net/
-     - MeshMap: https://meshmap.net/
-     
 - `MQTT` (Message Queuing Telemetry Transport): This is a bridge between the radio world and the internet. If one node in a mesh is connected to a phone with internet or a Wi-Fi gateway, it can push the local mesh traffic to an MQTT Broker. As result, you can talk to a mesh network in another city or country as if they were right next to you, effectively linking "islands" of radio users together via the web.
+
+    - `Meshtastic Maps`: These are web-based platforms (MQTT-linked maps) that show the location of "public" nodes. If your device has GPS and you opt-in to sharing, your node will appear        on a global map, helping others see the network's coverage in their area. Some maps are:
+    
+      - Liam Cottle: https://meshtastic.liamcottle.net/
+      - MeshMap: https://meshmap.net/
+   
 
 <br>
 
