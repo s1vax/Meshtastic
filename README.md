@@ -40,11 +40,6 @@
 │    └── - Specialized Nodes (Telemetry and Tracking)
 │
 │
-├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic
-│    └── A small OSINT challenge in Spanish related to Meshtastic 
-│        (you don't need a node to do it, just internet and lots of enthusiasm!)
-│
-│
 ├── 🚀 ¿How can we start? --> General steps to start using Meshtastic
 │    ├── - Get the Hardware
 │    │
@@ -73,7 +68,11 @@
 │
 │
 ├── 🏴‍☠️ Cybersecurity - Meshtastic Vulnerabilities (📌 in progress)
-│
+│    ├── 👾 ¿Wanna play? --> A mini cybersecurity (OSINT) game for Meshtastic
+│    │    └── A small OSINT challenge in Spanish related to Meshtastic 
+│    │        (you don't need a node to do it, just internet and lots of enthusiasm!)
+│    │
+│    ├─ 🐍 L
 │
 ├── ⚖️ Disclaimer
 │
