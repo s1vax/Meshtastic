@@ -55,13 +55,15 @@
 │    │
 │    ├── 🔹 Seed Studio Xiao nrf52840
 │    │
+│    ├── 🔹 MeshPad: macropad + meshtastic
+│    │
 │    └── 🔹 Other Meshtastic models
 │
 │
-├── 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
-│
-│
-├── 🚀 ¿How did we create the mesh network in San Luis capital, Argentina? (📌 in progress)
+├── 🌏 Mesh in Public Space
+│    ├── 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
+│    │ 
+│    ├── 🚀 ¿How did we create the mesh network in San Luis capital, Argentina? (📌 in progress)
 │
 │
 ├── 🧊 3D cases (📌 in progress)
@@ -72,7 +74,7 @@
 │    │    └── A small OSINT challenge in Spanish related to Meshtastic 
 │    │        (you don't need a node to do it, just internet and lots of enthusiasm!)
 │    │
-│    ├─ 🐍 L
+│    ├─ 🐍 LoKi Firmware with nrf52840 kit (📌 in progress)
 │
 ├── ⚖️ Disclaimer
 │
@@ -655,6 +657,15 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 <br>
 
+### 🔹MeshPad: macropad + meshtastic
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ### 🔹 Other Meshtastic models
 <p align="center">
 <img width="210" height="210" alt="MeetUps" src="https://github.com/user-attachments/assets/de9f078d-02fb-4260-952c-880a839094af" />
@@ -738,7 +749,10 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 <br>
 
-## 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
+## 🌏 Mesh in Public Space
+<br>
+
+### 🏔️ ¿How did we manage to install a node in a key public space? (📌 in progress)
 
 <br>
 <br>
@@ -747,7 +761,7 @@ Considered the "gold standard" for serious nodes and solar stations.
 <br>
 <br>
 
-## 🚀 ¿How did we create the mesh network in San Luis capital, Argentina? (📌 in progress)
+### 🚀 ¿How did we create the mesh network in San Luis capital, Argentina? (📌 in progress)
 
 <br>
 <br>
@@ -780,8 +794,14 @@ What does this mini-challenge consist of? You will put yourself in the shoes of 
 
 👉 https://forms.gle/bTwt6tVbDUNSLwcEA
 
-
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### 🐍 LoKi Firmware with nrf52840 kit (📌 in progress)
 
 <br>
 <br>
