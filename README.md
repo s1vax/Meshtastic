@@ -658,6 +658,28 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 <br>
 
 ### 🔹MeshPad: macropad + meshtastic
+<p align="center">
+<img width="346" height="346" alt="WhatsApp Image 2026-10-22 at 11 53 00" src="https://github.com/user-attachments/assets/990683b1-d4cf-4016-b131-f6d75f6ed403" />
+</p>
+
+<br>
+
+### What is this project?
+
+<br>
+
+### 🛒 Things we need
+
+- A `PC` for the firmware flashing & for power
+- The `Xiao nrf52840 Kit` module
+- `Phone` or `PC` for node connectivity & configuration (GPS, MQTT, Channels, etc.)
+- x1 `Micro USB to USB-A cable`
+- A `Micro USB to USB-C cable` or A `Micro USB adapter for USB-C to USB-C cable` or `Jump wires` (for RX and TX pins connections of the XIAO nRF52840) 
+- x1 `Raspberry Pi Zero 2 W`
+- x9 `Keyboard Switches`
+- x9 `Keycaps`
+- x1 `Switch-Encoder` 
+- x1 `Oled 128x64`
 
 <br>
 <br>
