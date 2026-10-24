@@ -114,7 +114,7 @@ The system is based on two fundamental pillars:
 📡  **LoRa technology:** It uses long-range, low-power radio frequency modulation. This allows small data packets (such as text or GPS coordinates) to be sent several kilometers away using small batteries.
 
 - `Frequencies`: Meshtastic uses ISM (Industrial, Scientific, and Medical) license-free bands. These vary by region to comply with local laws:
-    - North America: 915 MHz
+    - North America & LATAM: 915 MHz
     - Europe: 868 MHz
     - Asia/Oceania/Others: Often 433 MHz or 923 MHz.
     
