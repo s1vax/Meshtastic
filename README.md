@@ -55,7 +55,7 @@
 │    │
 │    ├── 🔹 Seed Studio Xiao nrf52840
 │    │
-│    ├── 🔹 MeshPad: macropad + meshtastic
+│    ├── 🔹 MeshPad: macropad + meshtastic (with Raspberry Pi Zero 2 W)
 │    │
 │    └── 🔹 Other Meshtastic models
 │
