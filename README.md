@@ -74,7 +74,10 @@
 │    │    └── A small OSINT challenge in Spanish related to Meshtastic 
 │    │        (you don't need a node to do it, just internet and lots of enthusiasm!)
 │    │
-│    ├─ 🐍 LoKi Firmware with nrf52840 kit (📌 in progress)
+│    ├─ 🐍 LoKi Firmware with Heltec V3 & nrf52840 kit (Remote Commands Excecution through Meshtastic/LoRa) (📌 in progress)
+│    │
+│    │
+│    ├─ ⌨️ MeshPad (USB HID & BLE HID Remote Commands Excecution through Meshtastic/LoRa) (📌 in progress)
 │
 ├── ⚖️ Disclaimer
 │
