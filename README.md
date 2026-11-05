@@ -835,6 +835,15 @@ What does this mini-challenge consist of? You will put yourself in the shoes of 
 <br>
 <br>
 
+### ⌨️ MeshPad (USB HID & BLE HID Remote Commands Excecution through Meshtastic) (📌 in progress)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## ⚖️ Disclaimer
 I am not responsible for any issues with the distributors of the links shared in this repository. Open and use them at your own risk. 
 
