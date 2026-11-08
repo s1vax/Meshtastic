@@ -669,6 +669,17 @@ Since it does not have a built-in long-range antenna, the use of a U.FL to SMA p
 
 ### What is this project?
 
+MeshPad es un proyecto el cual consiste en un nodo meshtastic (XIAO nRF52840) con un macropad integrado (9 switches, 1 encoder y 1 oled), y todo esto, orquestado por una Raspberry Pi Zero 2 W. 
+
+El proyecto surge debido a 2 ideas: La primera idea, fue debido a una necesidad de lograr tener a disposicion un nodo aun mas autonomo en la red mesh en caso de emergencia (es decir, que no tenga que depender de un segundo dispositivo para escribir mensajes), y la segunda idea, debido a un proyecto de ciberseguridad presentado en la DEFCON 2026 con el nombre de LoKi Firmware (basicamente una variante del firmware de meshtastic, que permite ejecutar codigos remotos a distancia gracias a LoRa; un estilo de rubberducky).
+
+Meshpad proporciona un menu con diversas funcionas, entre ellas:
+ - Mandar mensajes predefinidos a la red mesh
+ - Escribir mensajes personalizados a la red mesh
+ - Lectura de mensajes recibidos por la red mesh
+ - Funcion de teclado para conectar a un PC por medio de USB o Bluetooth
+ - Permite la ejecucion de comandos a distancia (estilo Rubberducky)
+
 <br>
 
 ### 🛒 Things we need
