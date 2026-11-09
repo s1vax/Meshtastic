@@ -678,7 +678,7 @@ Meshpad proporciona un menu con diversas funcionas, entre ellas:
  - Escribir mensajes personalizados a la red mesh
  - Lectura de mensajes recibidos por la red mesh
  - Funcion de teclado para conectar a un PC por medio de USB o Bluetooth
- - Permite la ejecucion de comandos a distancia (estilo Rubberducky)
+ - Permite la ejecucion de comandos a distancia
 
 <br>
 
@@ -837,7 +837,9 @@ What does this mini-challenge consist of? You will put yourself in the shoes of 
 <br>
 <br>
 
-### 🐍 LoKi Firmware with nrf52840 kit (📌 in progress)
+### 🐍 LoKi Firmware with the Heltec V3 & the nRF52840 kit (USB HID Remote Commands Excecution through Meshtastic) (📌 in progress)
+<br>
+👉 Pueden encontrar mas informacion respecto a este firmware para la placa Heltec V3 en el siguiente repo: https://github.com/venkyr/meshtastic-firmware-loki
 
 <br>
 <br>
@@ -847,6 +849,8 @@ What does this mini-challenge consist of? You will put yourself in the shoes of 
 <br>
 
 ### ⌨️ MeshPad (USB HID & BLE HID Remote Commands Excecution through Meshtastic) (📌 in progress)
+<br>
+👉 Pueden encontrar mas informacion en mi repo especializado en el proyecto: https://github.com/s1vax/MeshPad
 
 <br>
 <br>
